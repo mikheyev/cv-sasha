@@ -1,0 +1,178 @@
+\documentclass[11pt]{article}
+
+% This is a tex file to make Alexander Mikheyev's CV.
+% The content is
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{rz-vita}
+%\usepackage[english]{isodate}
+%\printdayoff\numdate
+\def\printdate#1{\xprintdate#1-}
+\def\xprintdate#1-#2-#3-{#1}
+\def\daterange#1#2{\xprintdate#1---\xprintdate#2-}
+
+
+% Your biblatex file is likely somewhere else.
+$if(bibliography)$
+\addbibresource{$bibliography$}
+$endif$
+
+\title{}
+\name{$name$}
+% I guess postnoms is like junior? I dunno.
+\postnoms{}
+\address{
+$for(address)$
+  $address$\\
+$endfor$
+}
+\www{$www$}
+\email{$email$}
+\tel{$tel$}
+\twitter{$twitter$}
+\orcid{$orcid$}
+\philpapers{$philpapers$}
+\github{$github$}
+\googlescholar{$scholar$}
+\subject{}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Education}
+
+$for(education)$
+\ind $education.degree$, \textbf{$education.school$}, $education.field$, \printdate{$education.date$}$if(education.info)$ ($education.info$)
+$else$
+$endif$
+$endfor$
+
+$for(competencies)$
+\section{$competencies.type$}
+$for(competencies.items)$\ind $competencies.items$
+
+$endfor$
+$endfor$
+
+\section{Appointments}
+
+$for(appointment)$
+\subsection{$appointment.place$}
+$for(appointment.items)$
+\ind $appointment.items.item$. $if(appointment.items.enddate)$\daterange{$appointment.items.begindate$}{$appointment.items.enddate$}$else$\printdate{$appointment.items.begindate$}--$endif$.
+
+$endfor$
+$endfor$
+
+
+\section{Editor}
+
+$for(editor)$
+\ind \textit{\href{$editor.link$}{$editor.item$}}, $editor.role$. $if(editor.enddate)$\daterange{$editor.begindate$}{$editor.enddate$}$else$\printdate{$editor.begindate$}--$endif$.
+
+$endfor$
+
+\defbibheading{publist}[\bibname]{%
+  \subsection{#1}}
+
+\begin{publications}
+  \printbibrz{article}{Journal Articles}
+  \printbibrz{commentary}{Commentary}
+\end{publications}
+
+
+\section{Presentations}
+
+\subsection{Invited Departmental Presentations}
+
+$for(presentation)$
+$if(presentation.invited)$\ind ``$presentation.title$.'' $if(presentation.host)$$presentation.host$, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\subsection{Conference Keynotes}
+
+$for(presentation)$
+$if(presentation.keynote)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\subsection{Invited Conference and Workshop Talks}
+
+$for(presentation)$
+$if(presentation.workshop)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\subsection{Conference Presentations}
+
+$for(presentation)$
+$if(presentation.conference)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\subsection{Commentaries}
+
+$for(presentation)$
+$if(presentation.comments)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\subsection{Local Presentations}
+
+$for(presentation)$
+$if(presentation.local)$
+\ind ``$presentation.title$.'' $if(presentation.host)$$presentation.host$, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\section{Teaching}
+
+\subsection{Classes Taught}
+
+$for(teaching)$
+\subsection{$teaching.school$}
+$for(teaching.courses)$
+\ind $teaching.courses.title$$if(teaching.courses.number)$ ($teaching.courses.number$)$endif$, $teaching.courses.date$. ($teaching.courses.type$).
+
+$endfor$
+$endfor$
+
+\section{Students}
+
+$for(students)$
+\subsection{$students.type$}
+$for(students.students)$
+\ind $if(students.students.webpage)$\href{$students.students.webpage$}{$students.students.name$}$else$$students.students.name$$endif$ ($students.students.degree$), ``$if(students.students.link)$\href{$students.students.link$}{$students.students.thesis$}$else$$students.students.thesis$$endif$,'' $students.students.date$
+
+$endfor$
+$endfor$
+
+\section{Grants}
+
+$for(grants)$
+\ind $grants.type$, $if(grants.title)$``$grants.title$,'' $endif$$grants.value$, $grants.date$$if(grants.note)$ ($grants.note$)$endif$.
+
+$endfor$
+
+\section{Service}
+
+$for(service)$
+\subsection{$service.type$}
+$for(service.gigs)$
+\ind $service.gigs.item$. $if(service.gigs.date)$$service.gigs.date$.$endif$
+
+$endfor$
+$endfor$
+
+
+\end{document}

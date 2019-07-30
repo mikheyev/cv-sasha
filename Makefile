@@ -1,6 +1,6 @@
 .PHONY: FORCE_MAKE
 
-all: cv-zach.pdf
+all: cv-mikheyev.pdf
 
 #pdf:   clean $(PDFS)
 #html:  clean $(HTML)
@@ -24,16 +24,8 @@ yaml-cv.md: curriculum_vitae.yaml
 	perl -pi -e 'if ($$_=~/cite\{/) {s/\\_/_/g}; s/(\d{4})-(\.|[Pp]resent|\d{4})/$$1--$$2/g' $@;
 
 %-scholar.tex: FORCE_MAKE
-	rm -f $@
-	for cids in `grep 'scholar' zach.bib|sed 's/^[^0-9]*//;s/[^0-9]*$$//'` ; do \
-	 	sleep 8m ;\
-		cidss=`echo $$cids | sed 's/,/ /g'` ;\
-		cites=`./citecount $$cidss` ;\
-		echo "$$cites citations for $$cidss" ;\
-		if [ "$$cites" -gt "0" ] ; then \
-			echo "\defscholar{$$cids}{$$cites}" >> $@ ;\
-		fi ;\
-	done
+	Rscript scholar.R > $@
+
 %.md: template-%.md yaml-cv.md
 	sed 's/-[0-9][0-9]-[0-9][0-9]//g;s/\\\\emph{\([^}]*\)}/_\1_/g;' yaml-cv.md | pandoc --template=$< -t markdown | sed 's/--/–/g' > $@
 
@@ -42,4 +34,3 @@ yaml-cv.md: curriculum_vitae.yaml
 
 clean:
 	rm -f *.aux *.bcf *.log *.out *.run.xml *.pdf *.bbl *.blg *yaml-cv.md
-
