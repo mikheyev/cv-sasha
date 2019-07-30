@@ -1,5 +1,5 @@
 %% Curriculum Vitae style file
-%% 
+%%
 %% James Keirstead
 %% Last updated: 2 March 2015
 %%
@@ -17,8 +17,8 @@
 \usepackage{fontawesome}
 \usepackage[compact,small,sf,bf]{titlesec}
 \usepackage{etaremune}
-%% ------------------------------------------------------------------------  
-%%  Git version tracking 
+%% ------------------------------------------------------------------------
+%%  Git version tracking
 %% ------------------------------------------------------------------------
 
 %% If you don't use git or the vc package (from CTAN), comment this out.
@@ -34,7 +34,7 @@
 %\usepackage{fontspec}
 %\usepackage{xunicode}
 
-%% color for the links 
+%% color for the links
 \usepackage[usenames,dvipsnames]{xcolor}
 \definecolor{ImperialBlue}{rgb}{0.082,0.416,0.608}
 \definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
@@ -43,7 +43,7 @@
 
 \usepackage[sfdefault]{universalis}
 \usepackage[osf]{Baskervaldx} % oldstyle figures
-\usepackage[bigdelims,baskervaldx]{newtxmath} 
+\usepackage[bigdelims,baskervaldx]{newtxmath}
 \usepackage[cal=boondoxo]{mathalfa}
 
 %% ------------------------------------------------------------------------
@@ -126,9 +126,9 @@
 
 
   \begin{minipage}[t]{3.5in}
-    \flushright {\footnotesize \@address} 
+    \flushright {\footnotesize \@address}
   \end{minipage}
-  \hfill     
+  \hfill
   \begin{minipage}[t]{1.7in}
     \flushright
     {\scriptsize \texttt{\@tel \, \faPhone} } \\
@@ -137,14 +137,13 @@
     {\scriptsize  \texttt{\href{https://github.com/\@github}{\@github}} \, \faGithub} \\
     {\scriptsize  \texttt{\href{https://twitter.com/\@twitter}{\@twitter} \, \faTwitter}} \\
     {\scriptsize  \textsc{\href{https://scholar.google.ca/citations?user=\@googlescholar&hl=en}{Google Scholar}} \, \faGoogle} \\
-    {\scriptsize  \textsc{\href{https://philpapers.org/profile/\@philpapers}{PhilPapers}} \, \faFileText} \\
-    
+
   \end{minipage}
 
   \bigskip
   \bigskip
 
-  %% Name 
+  %% Name
   \noindent{\LARGE\scshape{\@title\ \@name}} {\scriptsize \textsc{\@postnoms}}\\
   \bigskip
   \bigskip
@@ -200,7 +199,7 @@
 %% ------------------------------------------------------------------------
 
 %\usepackage[uniquename=init,dashed=false,doi=false,isbn=false,backend=biber]{biblatex-chicago}
-%\usepackage[notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true]{biblatex-chicago}  
+%\usepackage[notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true]{biblatex-chicago}
 
 \usepackage[bibstyle=authoryear,date=year,sorting=ydnt,dashed=false,maxbibnames=99]{biblatex}
 
@@ -270,13 +269,6 @@
    \usebibmacro{finentry}
 }
 
-% Format & add link to philpapers page
-
-\DeclareFieldFormat{eprint:philpapers}{\textsc{philpapers:} \href{https://philpapers.org/rec/#1}{\footnotesize\texttt{#1}}}
-\DeclareFieldFormat{doi}{\textsc{doi:} 
-\href{https://doi.org/#1}{\footnotesize\texttt{#1}}}
-\DeclareFieldFormat{url}{\href{#1}{\textsc{link}}}
-
 % Format & add link to Google Scholar citations
 
 % map the bibtex field "scholar" to usera
@@ -306,6 +298,7 @@
 \def\printscholar#1{\ifcsname scholar#1\endcsname%
   \href{https://scholar.google.com/scholar?cites=#1}%
        {\textsc{citations:~\csname scholar#1\endcsname}}\fi}
+
 
 % include citation counts if available
 \IfFileExists{\jobname-scholar.tex}{\input \jobname-scholar}
@@ -365,7 +358,7 @@
 %%% Local commands
 %%%------------------------------------------------------------------------
 %% No bullets on labels
-\renewcommand{\labelitemi}{~} 
+\renewcommand{\labelitemi}{~}
 
 %% Custom hanging indent for vita items
 \def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
