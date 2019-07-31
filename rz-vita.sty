@@ -208,7 +208,6 @@
 \DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}~#1}
 \DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
 \DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
-%\DeclareFieldFormat{title}{``\MakeSentenceCase{#1}''}
 \DeclareFieldFormat[book]{title}{\textit{\MakeCapital{#1}}}
 \DeclareFieldFormat[audio]{series}{\textit{\MakeCapital{#1}}}
 \DeclareFieldFormat{shorthandwidth}{#1}
@@ -269,8 +268,9 @@
    \usebibmacro{finentry}
 }
 
+%%%%%%%%%%%%%%%%
 % Format & add link to Google Scholar citations
-
+%%%%%%%%%%%%%%
 % map the bibtex field "scholar" to usera
 \DeclareSourcemap{
     \maps[datatype=bibtex]{
@@ -278,23 +278,37 @@
         \step[fieldsource=scholar]
         \step[fieldset=usera,origfieldval]
     }
+      \map{
+        \step[fieldsource=pubid]
+        \step[fieldset=userb,origfieldval]
+      }
   }
 }
 
-% print the usera field at end of every entry, if defined
 \AtEveryBibitem{%
     \csappto{blx@bbx@\thefield{entrytype}}{% put at end of entry
-        \iffieldundef{usera}{}{%
-          \space\printfield{usera}
+          \iffieldundef{userb}{}{
+          \space\printfield{userb}
+      }
+          \iffieldundef{usera}{}{%
+            \space\printfield{usera}
         }
     }
 }
 
+
 % print a link to the Google Scholar citations list
 \DeclareFieldFormat{usera}{\printscholar{#1}}
+\DeclareFieldFormat{userb}{\printscholarIF{#1}}
+
 
 % \jobname-scholar should include \defscholar{<cluster ID>}{<citation count>}
 \def\defscholar#1#2{\expandafter\def\csname scholar#1\endcsname{#2}}
+\def\defscholarIF#1#2{\expandafter\def\csname pubid#1\endcsname{#2}}
+
+\def\printscholarIF#1{\ifcsname pubid#1\endcsname%
+  \textit{I.F.}: ~\csname pubid#1\endcsname\fi}
+
 \def\printscholar#1{\ifcsname scholar#1\endcsname%
   \href{https://scholar.google.com/scholar?cites=#1}%
        {\textsc{citations:~\csname scholar#1\endcsname}}\fi}

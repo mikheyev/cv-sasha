@@ -528,6 +528,10 @@
         <bcf:map_step map_field_source="scholar"/>
         <bcf:map_step map_field_set="usera" map_origfieldval="1"/>
       </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="pubid"/>
+        <bcf:map_step map_field_set="userb" map_origfieldval="1"/>
+      </bcf:map>
     </bcf:maps>
     <bcf:maps datatype="bibtex" level="driver">
       <bcf:map>
