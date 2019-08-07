@@ -33,9 +33,10 @@
 *.tdo
 *#
 *~
-*.pdf
 *.gin
 *.prb
 *.pcr
 cv-mikheyev.docx
 cv-mikheyev.md
+.gitsecret/keys/random_seed
+!*.secret

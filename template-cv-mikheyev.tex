@@ -46,14 +46,8 @@ $endfor$
 $for(education)$
 \ind $education.degree$, \textbf{$education.school$}, $education.field$, \printdate{$education.date$}$if(education.info)$ ($education.info$)
 $else$
+
 $endif$
-$endfor$
-
-$for(competencies)$
-\section{$competencies.type$}
-$for(competencies.items)$\ind $competencies.items$
-
-$endfor$
 $endfor$
 
 \section{Appointments}
@@ -66,6 +60,12 @@ $for(appointment.items)$
 $endfor$
 $endfor$
 
+\section{Academic awards}
+
+$for(awards)$
+\ind \textit{$if(awards.link)$\href{$awards.link$}{$awards.title$}$else$$awards.title$$endif$}, $awards.agency$, $awards.date$$if(awards.note)$, ($awards.note$)$endif$.
+
+$endfor$
 
 \section{Editor}
 
@@ -74,74 +74,28 @@ $for(editor)$
 
 $endfor$
 
-\defbibheading{publist}[\bibname]{%
-  \subsection{#1}}
+\section{Research Grants \& Fellowships}
 
-\begin{publications}
-  \printbibrz{article}{Journal Articles}
-  \printbibrz{commentary}{Commentary}
-\end{publications}
-
-
-\section{Presentations}
-
-\subsection{Invited Departmental Presentations}
-
-$for(presentation)$
-$if(presentation.invited)$\ind ``$presentation.title$.'' $if(presentation.host)$$presentation.host$, $endif$$presentation.place$, \printdate{$presentation.date$}.
+\subsection{Grants}
+$for(grants)$
+$if(grants.grant)$\ind \textit{$grants.funder$}, $grants.type$, $if(grants.title)$``$grants.title$''. $endif$$if(grants.value)$ $grants.value$.$endif$ $grants.date$$if(grants.note)$ ($grants.note$)$endif$.
 
 $endif$
 $endfor$
 
-\subsection{Conference Keynotes}
-
-$for(presentation)$
-$if(presentation.keynote)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
-
-$endif$
-$endfor$
-
-\subsection{Invited Conference and Workshop Talks}
-
-$for(presentation)$
-$if(presentation.workshop)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
-
-$endif$
-$endfor$
-
-\subsection{Conference Presentations}
-
-$for(presentation)$
-$if(presentation.conference)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
-
-$endif$
-$endfor$
-
-\subsection{Commentaries}
-
-$for(presentation)$
-$if(presentation.comments)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
-
-$endif$
-$endfor$
-
-\subsection{Local Presentations}
-
-$for(presentation)$
-$if(presentation.local)$
-\ind ``$presentation.title$.'' $if(presentation.host)$$presentation.host$, $endif$$presentation.place$, \printdate{$presentation.date$}.
+\subsection{Fellowships}
+$for(grants)$
+$if(grants.fellowship)$\ind \textit{$grants.funder$}, $grants.type$, $if(grants.title)$``$grants.title$''. $endif$$if(grants.value)$ $grants.value$.$endif$ $grants.date$$if(grants.note)$ ($grants.note$)$endif$.
 
 $endif$
 $endfor$
 
 \section{Teaching}
 
-\subsection{Classes Taught}
-
 $for(teaching)$
 \subsection{$teaching.school$}
 $for(teaching.courses)$
-\ind $teaching.courses.title$$if(teaching.courses.number)$ ($teaching.courses.number$)$endif$, $teaching.courses.date$. ($teaching.courses.type$).
+\ind $teaching.courses.title$$if(teaching.courses.number)$ ($teaching.courses.number$)$endif$, $teaching.courses.role$, $teaching.courses.date$. ($teaching.courses.type$).
 
 $endfor$
 $endfor$
@@ -156,12 +110,56 @@ $for(students.students)$
 $endfor$
 $endfor$
 
-\section{Grants}
+\section{Presentations}
 
-$for(grants)$
-\ind $grants.type$, $if(grants.title)$``$grants.title$,'' $endif$$grants.value$, $grants.date$$if(grants.note)$ ($grants.note$)$endif$.
+\subsection{Invited Departmental Presentations}
 
+$for(presentation)$
+$if(presentation.invited)$\ind ``$presentation.title$.'' $if(presentation.host)$$presentation.host$, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
 $endfor$
+
+\subsection{Invited Conference and Workshop Talks}
+
+$for(presentation)$
+$if(presentation.workshop)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\subsection{Oral Conference Presentations}
+
+$for(presentation)$
+$if(presentation.conference)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\subsection{Poster Conference Presentations}
+
+$for(presentation)$
+$if(presentation.poster)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\subsection{Local Talks}
+
+$for(presentation)$
+$if(presentation.local)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+
+$endif$
+$endfor$
+
+\defbibheading{publist}[\bibname]{%
+  \subsection{#1}}
+
+\begin{publications}
+  \printbibrz{article}{Journal Articles}
+  \printbibrz{conferences}{Conference papers \& posters}
+  \printbibrz{commentary}{Commentary}
+\end{publications}
 
 \section{Service}
 
@@ -169,6 +167,16 @@ $for(service)$
 \subsection{$service.type$}
 $for(service.gigs)$
 \ind $service.gigs.item$. $if(service.gigs.date)$$service.gigs.date$.$endif$
+
+$endfor$
+$endfor$
+
+\section{Outreach}
+
+$for(outreach)$
+\subsection{$outreach.type$}
+$for(outreach.gigs)$
+\ind $outreach.gigs.host$. $if(outreach.gigs.event)$$outreach.gigs.event$,$endif$ $if(outreach.gigs.webpage)$\href{$outreach.gigs.webpage$}{$outreach.gigs.title$}$else$$outreach.gigs.title$$endif$. $outreach.gigs.date$
 
 $endfor$
 $endfor$

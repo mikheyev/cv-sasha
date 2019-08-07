@@ -1,4 +1,8 @@
-
+---
+citation-style: publication-list.csl
+nocite: |
+  @*
+...
 
 # $name$
 
@@ -141,3 +145,7 @@ $endif$
 
 $endfor$
 
+
+## Publications
+::: {#refs}
+:::

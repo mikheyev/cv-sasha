@@ -1,369 +1,590 @@
 ---
-name: Richard Zach
+name: Sasha (Alexander) S. Mikheyev
 address:
-    - University of Calgary
-    - Department of Philosophy
-    - 2500 University Drive NW
-    - Calgary, Alberta T2N 1N4
-    - Canada
+    - Australian National University
+    - Research School of Biology
+    - Divisin of Ecology and Evolution
+    - RN Roberson Building
+    - 46 Sullivans Creek Rd.
+    - Acton, ACT 2601
+    - Australia
 email: sasha@homologo.us
-twitter: rrrichardzach
-www: richardzach.org
-tel: +1 (403) 220 3170
+twitter: amikheyev
+www: homologo.us
+tel: +61 (0) 490 485 469
 scholar: d1Q6iL0AAAAJ
-orcid: 0000-0003-1633-8324
+orcid: 0000-0003-4369-1019
 github: mikheyev
 bibliography: mikheyev.bib
 
 appointment:
   -
-    place: University of Calgary, Department of Philosophy
+    place: Australian National University, Research School of Biology
     items:
       -
-        item: Professor
-        begindate: 2009-07-01
+        item: Senior Lecturer
+        begindate: 2018-06-01
+      -
+        item: Group Leader (Future Fellow)
+        begindate: 2017-07-30
+      -
+        item: Associate Dean (International)
+        begindate: 2019-00-00
+  -
+    place: Okinawa Institute of Science and Technology
+    items:
+      -
+        item: Associate Professor (adjunct)
+        begindate: 2017-00-00
       -
         item: Associate Professor
-        begindate: 2004-07-01
-        enddate: 2009-06-30
+        begindate: 2015-00-00
+        enddate: 2017-00-00
       -
         item: Assistant Professor
-        begindate: 2001-07-01
-        enddate: 2004-06-30
-  -
-    place: McGill University, Department of Philosophy
-    items:
+        begindate: 2012-00-00
+        enddate: 2015-00-00
       -
-        item: Visiting Professor
-        begindate: 2014-10-01
-        enddate: 2015-06-30
-  -
-    place: University of California, Irvine, Department of Philosophy
-    items:
-      -
-        item: Visiting Associate Researcher
-        begindate: 2004-10-01
-        enddate: 2004-12-31
-  -
-    place: Stanford University, Department of Philosophy
-    items:
-      -
-        item: Lecturer
-        begindate: 2001-01-01
-        enddate: 2001-06-30
-
-  -
-    place: University of California, Berkeley, Department of Philosophy
-    items:
-      -
-        item: Graduate Student Instructor
-        begindate: 1996-09-01
-        enddate: 2000-12-31
-
-  -
-    place: Technische Universität Wien, Department of Computer Science
-    items:
-      -
-        item: Erasmus Mundus Scholar
-        begindate: 2009-00-00
-        enddate: 2009-00-00
-      -
-        item: Lecturer
-        begindate: 1995-03-01
-        enddate: 2000-06-30
+        item: Independent New Investigator
+        begindate: 2009-08-00
+        enddate: 2012-00-00
 
 editor:
   -
-    item: Journal for the History of Analytic Philosophy
-    link: https://jhaponline.org/
-    role: Founding Editor
-    begindate: 2010-00-00
+    item: Journal of Tropical Ecology
+    link: https://mc.manuscriptcentral.com/jte
+    role: Editor-in-Chief
+    begindate: 2019-07-01
   -
-    item: Open Logic Project
+    item: Myrmecological News
     link: http://openlogicproject.org/
-    role: Main Instigator
+    role: Subject Editor
     begindate: 2013-00-00
   -
-    item: The Collected Works of Rudolf Carnap
-    link: http://rudolfcarnap.org/
-    role: Editor
-    begindate: 2006-00-00
-  -
-    item: Studia Logica
-    link: http://www.studialogica.org/
-    role: Associate Editor
-    begindate: 2006-00-00
-  -
-    item: Stanford Encyclopedia of Philosophy
-    link: https://plato.stanford.edu/
-    role: Subject Editor, History of Logic
-    begindate: 2005-00-00
-  -
-    item: Hilbert-Bernays Project
-    link: http://wirth.bplaced.net/p/hilbertbernays/
-    role: Advisory Board Member
-    begindate: 2008-00-00
-  -
-    item: Paul Bernays Project
-    link: http://www.phil.cmu.edu/projects/bernays/
-    role: Editorial Board Member
-    begindate: 2000-00-00
-
-  -
-    item: The Review of Symbolic Logic
-    link: https://www.cambridge.org/core/journals/review-of-symbolic-logic
-    role: Founding Editor
-    begindate: 2007-01-01
-    enddate: 2013-12-31
-
-
+    item: PeerJ
+    link: https://peerj.com/sasha/
+    role: Academic Editor
+    begindate: 2015-00-00
 
 education:
   -
-    school: University of California, Berkeley
+    school: University of Texas, Austin
     degree: PhD
-    field: Logic and the Methodology of Science
-    date: 2001-05-01
-    info: "Thesis: \"Hilberts Finitism: Historical, Philosophical, and Metamathematical Perspectives.\" Supervisors: Paolo Mancosu, Jack H. Silver"
+    field: Integrative Biology
+    date: 2009-05-01
   -
-    school: University of California, Berkeley
+    school: University of Florida, Tallahassee
     degree: MA
-    field: Mathematics
-    date: 1997-05-01
+    field: Biology
+    date: 2002-05-01
   -
-    school: University of California, Berkeley
-    degree: CPhil
-    field: Logic and the Methodology of Science
-    date: 1997-05-01
-  -
-    school: Technische Universität Wien
-    degree: Diplom-Ingenieur
-    field: Computational Logic
-    date: 1993-11-01
-
-
-competencies:
-  -
-    type: Areas of Specialization
-    items:
-      - 'Logic: Proof Theory, Non-classical Logics'
-      - 'History of Logic: Hilbert, Gödel, Carnap'
-      - "Philosophy of Mathematics: Hilbert's Program"
-      - 'History of Analytic Philosophy: Carnap'
-  -
-    type: Areas of Competence
-    items:
-      - Metaphysics, Philosophy of Language, Philosophy of Science
-
+    school: Cornell University
+    degree: B.A.
+    field: Neurobiology and Behavior
+    date: 2000-05-01
 
 awards:
-
--
-  title: Annual Fellowship
-  agency: Calgary Institute for the Humanities
-  date: 2013-2014
--
-  title: Annual Fellowship
-  agency: Calgary Institute for the Humanities
-  date: 2006-2007
--
-  title: Visiting Fellowship
-  agency: Department of Logic and Philosophy of Science, University of California, Irvine
-  date: 2004
--
-  title: Canadian Hunter Young Innovator Award
-  agency: University of Calgary
-  date: 2003
--
-  title: Mabelle McLeod Lewis Memorial Fellowship
-  date: 1999-2000
--
-  title: The Berkeley Fellowship for Graduate Study
-  agency: University of California, Berkeley
-  date: 1994-1999
--
-  title: Kurt Gödel Fellowship for Study Abroad
-  agency: Austrian Ministry of Science
-  date: 1994-1995
+  -
+    title: Future Fellowship (level 2)
+    agency: Australian Research Council
+    date: 2016-2020
+  -
+    title: Postdoctoral fellowship in biological informatics (\textit{declined})
+    agency: U.S. Natinal Science Foundation
+    date: 2009
+  -
+    title: George H. Mitchell Award for Excellence in Graduate Research
+    agency: University of Texas
+    date: 2008
+    link: https://news.utexas.edu/2008/05/29/graduate-students-honored-for-excellence
+    note: the university's top graduate research award
+  -
+    title: George Eickwort Award
+    agency: North American Section of the International Union for the Study of Social Insects
+    date: 2007
+    link: http://iussi.cyberbee.net/wp-content/uploads/2010/04/2007_Fall_NAS-IUSSI_Newsletter.pdf
+    note: for "exceptional research and scholarly activity by students in the field of social insect biology"
 
 presentation:
--
-  title: The Significance of the Curry-Howard Isomorphism
-  host: Eastern Division Meeting of the American Philosophical Association
-  place: New York
-  date: 2019-01-08
-  keynote: true
--
-  title: The Philosophical Significance of the Curry-Howard Isomorphism
-  host: 41st International Wittgenstein Symposium
-  place: Kirchberg am Wechsel, Austria
-  date: 2018-08-06
-  workshop: true
-
+  -
+    title: TBD
+    host: Viikki Lectures, University of Helsinki
+    place: Helsinki, Finland
+    date: 2020-00-00
+    invited: true
+    covered: true
+  -
+    title: "Coevolution while you wait: the arms race between honey bees and ectoparasitic Varroa mites"
+    host: Melbourne University School of BioSciences Seminar Series
+    place: Melbourne, Australia
+    date: 2019-00-00
+    invited: true
+    covered: true
+  -
+    title: "Coevolution while you wait: the arms race between honey bees and ectoparasitic Varroa mites"
+    host: Deakin University
+    place: Geelong, Australia
+    date: 2018-00-00
+    covered: true
+  -
+    title: "Coevolution between honey bees and novel parasites, the \\textit{Varroa} mites"
+    host: La Verne University
+    place: La Verne, California, United States
+    date: 2018-00-00
+  -
+    title: "Coevolution between honey bees and novel parasites, the \\textit{Varroa} mites"
+    host: Victor Chang Cardiac Research Institute
+    place: Sydney, Australia
+    date: 2018-00-00
+  -
+    title: "Staying alive: Genetic confirmation that the Lord Howe stick insect is not extinct"
+    host: Entomological Society of America
+    place: Boulder, Colorado, United States
+    date: 2018-00-00
+    conference: true
+  -
+    title: "Staying alive: Genetic confirmation that the Lord Howe stick insect is not extinct"
+    host: "Genomics and collections: adaptation to macroevolution"
+    place: Canberra, Australia
+    date: 2017-06-14
+    workshop: true
+    link: https://cba.anu.edu.au/news-events/genomics-and-collections-adaptation-macroevolution/genomics-and-collections-adaptation-0
+  -
+    title: "Using historical collections to understand the evolutionary response of bees to an emergent parasite"
+    host: Society for Molecular Biology and Evolution
+    place: Austin, Texas, United States
+    date: 2016-00-00
+    conference: true
+  -
+    title: "Using historical collections to understand the evolutionary response of bees to an emergent parasite"
+    host: Macquarie University
+    place: Sydney, Australia
+    date: 2016-00-00
+    invited: true
+    covered: true
+  -
+    title: "Evolutionary response by wild honey bees to \\textit{Varroa}"
+    host: Plymouth University
+    place: Plymouth, United Kigdom
+    date: 2016-00-00
+    invited: true
+  -
+    title: "Evolutionary response by wild honey bees to \\textit{Varroa}"
+    host: Plymouth University
+    place: Plymouth, United Kigdom
+    date: 2016-00-00
+    invited: true
+  -
+    title: "Evolutionary response by wild honey bees to \\textit{Varroa}"
+    host: Institute of Science and Technology
+    place: Vienna, Austria
+    date: 2016-00-00
+    invited: true
+  -
+    title: "Evolutionary response by wild honey bees to \\textit{Varroa}"
+    host: Max Planck Institute for Evolutionary Biology
+    place: Plön, Germany
+    date: 2016-00-00
+    invited: true
+    covered: true
+  -
+    title: "Evolutionary response by wild honey bees to \\textit{Varroa}"
+    host: Texas A&M University
+    place: College Station, Texas, United States
+    date: 2016-00-00
+    invited: true
+  -
+    title: "Whole-genome re-sequencing of museum specimens reveals resilience to disease in a feral population of European honey bees"
+    host: Academia Sinica
+    place: Taipei, Taiwan
+    date: 2016-00-00
+    invited: true
+    covered: true
+  -
+    title: "Using historical collection to understand feral honey bee evolution"
+    host: United States Department of Agriculture, Carl Hayden Bee Research Center
+    place: Tucson, Arizon, United States
+    date: 2015-00-00
+    invited: true
+  -
+    title: "Using population genomics to look at selection and evolution in social insects"
+    host: University of Pennsylvania
+    place: Philadelphia, Pennsylvania, United States
+    date: 2015-00-00
+    invited: true
+  -
+    title: "When subspecies collide: What can genome-wide signatures of hybridisation tell us about speciation?"
+    host: Australian National University, Species delimitation in the age of genomics Workshop
+    place: Canberra, Australia
+    date: 2015-00-00
+    invited: true
+    workshop: true
+  -
+    title: "Museum samples reveal population genomic changes associated with a rapid evolutionary response by wild honey bees \\textit{Apis mellifera} to a novel parasite"
+    host: Australian National University, Species delimitation in the age of genomics Workshop
+    place: National University of Singapore Biology Colloquium
+    date: 2015-00-00
+    invited: true
+    covered: true
+  -
+    title: "Working with ancient DNA: tools and insights"
+    host: Kzan' Federal University
+    place: Kazan', Russian Federation
+    date: 2014-00-00
+    invited: true
+  -
+    title: "Working with degraded DNA: laboratory and bioinformatic approaches"
+    host: CSIRO
+    place: Canberra, Australia
+    date: 2014-00-00
+    invited: true
+  -
+    title: "Whole genome re-sequencing of museum specimens revels resilience to disease in a feral population of European honey bees"
+    host: Australian National University
+    place: Canberra, Australia
+    date: 2014-00-00
+    invited: true
+  -
+    title: "Molecular signatures of ancient mutualistic coevolution in attine ants and their fungal cultivars"
+    host: OIST-NTU Invasive Ant Symposium, Okinawa Institute of Science and Technology
+    place: Okinawa, Japan
+    date: 2014-00-00
+    local: true
+    link: http://ecoevo.unit.oist.jp/lab/?p=1106
+  -
+    title: "Molecular signatures of ancient mutualistic coevolution in attine ants and their fungal cultivars"
+    host: Experimental Evolution Discussion Group, Wageningen University
+    place: Wageningen, Netherlands
+    date: 2014-00-00
+    invited: true
+    link: http://ecoevo.unit.oist.jp/lab/?p=1106
+  -
+    title: "Whole genome re-sequencing of museum specimens revels resilience to disease in a feral population of European honey bees"
+    host: University of Southern California, 
+    place: Los Angeles, California, United States
+    date: 2014-00-00
+    invited: true
+  -
+    title: "Whole genome re-sequencing of museum specimens revels resilience to disease in a feral population of European honey bees"
+    host: University of Southern California, 
+    place: Los Angeles, California, United States
+    date: 2014-00-00
+    invited: true
+  -
+    title: "Working with degraded DNA: laboratory and bioinformatic approaches"
+    host: University of Southern California, 
+    place: Los Angeles, California, United States
+    date: 2014-00-00
+    invited: true
+  -
+    title: "Development and applications of techniques to work with degraded DNA"
+    host: Kzan' Federal University
+    place: Kazan', Russian Federation
+    date: 2013-00-00
+    invited: true
+  -
+    title: "RAD-tagging and low-coverage shotgun phylogenetics with degraded DNA from non-destructively sampled museum specimens"
+    host: Illumina
+    place: Phuket, Thailand
+    date: 2013-00-00
+    poster: true
+  -
+    title: "Using museum collections to understand how honey bees have survived a disease pandemic"
+    host: School of Life Sciences, Arizona State University
+    place: Tempe, Arizona
+    date: 2013-00-00
+    invited: true    
+  -
+    title: "Using museum collections to understand how honey bees have survived a disease pandemic"
+    host: School of Life Sciences, Arizona State University
+    place: Tempe, Arizona
+    date: 2013-00-00
+    invited: true    
+  -
+    title: "Using museum collections to understand how honey bees have survived a disease pandemic"
+    host: Integrative Biology, University of Texas
+    place: Austin, Texas, United States
+    date: 2013-00-00
+    invited: true
+  -
+    title: "Using museum collections to understand how honey bees have survived a disease pandemic"
+    host: Neurobiology and Behavior, Cornell University
+    place: Ithaca, New York, United States
+    date: 2013-00-00
+    invited: true
+  -
+    title: "Using museum collections to understand how honey bees have survived a disease pandemic"
+    host: CAS-MPG Partner Institute for Computational Biology
+    place: Shanghai, China
+    date: 2012-00-00
+    invited: true
+  -
+    title: "Transcriptional profiling of attine ant fungal symbionts"
+    host: British Mycological Society
+    place: Alicante, Spain
+    date: 2012-00-00
+    conference: true
+    covered: true
+  -
+    title: Invasion of lowland rainforest by their little fire ant \\textit{Wasmannia auropunctata}"
+    host: Department and Graduate Institute of Entomology, National Taiwan University
+    place: Taipei, Taiwan
+    date: 2011-00-00
+    conference: true
+  -
+    title: "Evolutionary fate of horizontally acquired genes in bdelloid rotifers"
+    host: Ehwa Womans University
+    place: Seoul, Korea
+    date: 2013-00-00
+    invited: true
+    covered: true
+  -
+    title: "Ecology and evolution: the next synthesis"
+    host: Sydney Brenner commemorative symposium, Okinawa Institute of Science and Technology
+    place: Okinawa, Japan
+    date: 2011-00-00
+    local: true
+  -
+    title: "The role of adaptation and mutualistic interactions in the invasion of an African rainforest by the little fire ant \\textit{Wasmannia auropunctata}"
+    host: Rice University
+    place: Houston, Texas, United States
+    date: 2008-00-00
+    invited: true
+  -
+    title: "The spread of an invasive ant in African lowland rainforest: effects of environment and genetics"
+    host: University of Hawaii
+    place: Hilo, Hawaii, United States
+    date: 2008-00-00
+    invited: true
+  -
+    title: "Coevolution at the phylogenetic vs. population-genetic scales in the attine ant-fungal cultivar symbiosis"
+    host: Wageningen University
+    place: Wageningen, Netherlands
+    date: 2007-00-00
+    invited: true
 
 teaching:
--
-  school: University of Calgary
-  courses:
   -
-    title: "Logic III: Gödel's Incompleteness Theorems"
-    number: Phil 479/679.01
-    date: Winter 2004, Winter 2007, Fall 2008, Winter 2010, Winter 2012, Winter 2017, Fall 2018
-    type: grad
+    school: Australian National University
+    courses:
+    -
+      title: "Ecology"
+      role: lecturer
+      number: BIOL2131
+      date: 2019
+      type: undergad
+    -
+      title: "Evolution"
+      role: lecturer
+      number: BIOL2114
+      date: 2017 -- 2019
+      type: undergad
   -
-    title: "How Do We Know?"
-    number: Phil 274
-    date: Fall 2018
-    type: undergrad
+    school: Okinawa Institute of Science and Technology Graduate University
+    courses:
+    -
+      title: "Biology"
+      number: B02
+      role: sole instructor
+      date: 2012 -- 2015
+      type: grad
+    -
+      title: Quantitative Evolutionary Comparative Biology Workshop
+      role: organizer
+      date: 2011, 2012
+      type: grad
   -
-    title: "Advanced Topics in Logic: Modal Logic"
-    number: Phil 579.02/679.02
-    date: Winter 2014, Winter 2018
-    type: grad
+    school: University of Maryland University College
+    courses:
+    -
+      title: Introductory Biology Lab
+      number: "BIOL 102"
+      role: sole instructor
+      date: 2010
+      type: undergrad
+    -
+      title: Introductory Biology
+      number: "BIOL 101"
+      role: sole instructor
+      date: 2010
+      type: undergrad
   -
-    title: Graduate Proseminar
-    number: Phil 603
-    date: Fall 2015, Fall 2016, Fall 2017
-    type: grad
-
+    school: Southwestern University
+    courses:
+    -
+      title: Genetics and Evolution
+      number: BIO50-122
+      role: sole instructor
+      date: 2007
+      type: undergad
 
 students:
--
-  type: Supervisor
-  students:
+  -
+    type: Supervisor
+    students:
     -
-      name: Aaron Thomas-Bolduc
-      webpage: https://hcommons.org/members/arthomasbolduc/
+      name: Carmen Emborski
       degree: PhD
-      thesis: New Directions for Neologicism
-      link: https://prism.ucalgary.ca/handle/1880/107131
+      thesis: "Transgenerational effects of ancestral dietary modifications: investigations of progeny response consistency and modes of transmission"
+      link: https://ttu-ir.tdl.org/bitstream/handle/2346/74394/EMBORSKI-DISSERTATION-2018.pdf
       date: 2018
     -
-      name: Samara Burns
-      webpage: https://phil.ucalgary.ca/profiles/samara-burns
-      degree: MA
-      thesis: Hypersequent Calculi for Modal Logics
-      link: https://prism.ucalgary.ca/handle/1880/106539
-      date: 2018
-    -
-      name: Teppei Hayashi
+      name: Claire Morandin
       degree: PhD
-      thesis: "The Continuum: History, Mathematics, and Philosophy"
-      link: https://prism.ucalgary.ca/handle/1880/106283
-      date: 2017
+      thesis: "To be or not to be a Queen – Caste-specific gene expression patterns in ants"
+      link: https://pdfs.semanticscholar.org/ce84/0a0475d80c276d36c4e6f6fa7a00d0f3524c.pdf
+      date: 2015
+  -
+    type: External Examiner
+    students:
     -
-      name: Zahra Ahmadianhosseini
-      webpage: http://logic.berkeley.edu/students.html
-      degree: MA
-      thesis: Logical Models of Fallible Knowledge
-      link: https://prism.ucalgary.ca/handle/11023/3942
-      date: 2017
-
--
-  type: "External Examiner"
-  students:
+      name: Thomas Dejaco
+      degree: PhD, University of Innsbruck
+      thesis: "Integrative species delimitation in the alpine jumping‐bristletail genus \\textit{Machilis latreille}, 1832"
+      supervisor: Birgit Schlick-Steiner
+      date: 2014
+  -
+    type: Honours/Masters Committee Member
+    students:
     -
-      name: Long Chen
-      degree: PhD in Philosophy, King's College London
-      thesis: "Interpreting Gödel: Historical and Philosophical Perspectives"
-      supervisor: Michael Beaney
-      date: 2017
-
--
-  type: Committee Member
-  students:
-    -
-      name: Prashant Kumar
-      degree: "MSc in Computer Science, supervisor: Robin Cockett"
-      thesis: Implementation of Message Passing Language
+      name: Holly Sargent
+      degree: "Honours, supervisor: Craig Moritz"
+      thesis: Genetic erosion of island marsupial populations
       date: 2018
     -
-      name: Chad Mitchell Nester
-      degree: "MSc in Computer Science, supervisor: Robin Cockett"
-      thesis: Turing Categories and Realizability
-      date: 2017
-
+      name: Somasundhari Shanmuganadam
+      degree: "Masters, supervisors: Benjamin Schwessinger /Robyn Hall"
+      thesis: Uncovering the Hare microbiome
+      date: 2019
 
 service:
 -
-  type: "Department of Philosophy, University of Calgary"
+  type: "Associate Dean (International), Joint Colleges of Science, Health and Medicine, Australian National University"
   gigs:
     -
-      item: Graduate Program Director
-      date: 2015-2018
-    -
-      item: Committee on Diversity and Climate, Member
-      date: 2015-2018
-    -
-      item: Head's Advisory Committee, Member
-      date: 2013-2014, 2015-2018
-    -
-      item: Graduate Program Committee, Chair
-      date: 2015-2018
--
-  type: "University of Calgary"
-  gigs:
-    -
-      item: Pacific Institute for the Mathematical Sciences, Calgary Site Steering Committee
-      date: 2016--
--
-  type: "University of California, Berkeley"
-  gigs:
-    -
-      item: History and Philosophy of Logic, Mathematics, and Science Townsend Center Working Group, Organizer
-      date: 1998-2001
-    -
-      item: Graduate Council, Advisory Committee on Graduate Student Instructor Affairs, Student Representative
-      date: 1997-1999
-    -
-      item: Graduate Assembly, Committee on the Educational Improvement Grant Program, Member
-      date: 1997-1998
-    -
-      item: Logic and Methodology of Science Graduate Student Association, President
-      date: 1995-1998
-    -
-      item: Logic and Methodology of Science Graduate Student Association, Graduate Assembly Delegate
-      date: 1995-1998
-    -
-      item: Academic Senate, Advisory Committee on International Education, Student Representative
-      date: 1995-1996
+      item: Indian Institute of Technology Madras Joint Degree Program steering committee
+      date: 2019--
 -
   type: Professional Organizations
   gigs:
     -
-      item: Canadian Society for History and Philosophy of Mathematics, Council Member
+      item: Australian Entomological Society, Education Committee member
       date: 2018--
-
--
-  type: Conferences
-  gigs:
-    - item: Indian Conference on Logic an its Applications ICLA 2019, Program Committee Member
-      date: 2019
-    - item: Western Canadian Philosophical Association WCPA, University of Calgary, Organizer
-      date: 2018
-
 - type: Reviewer
   gigs:
     -
-      item: "Presses: Blackwell, Cambridge University Press, Oxford University Press, Princeton University Press, Springer"
+      item: "\\textbf{Journals}: Applied Sciences, Bioinformatics, Biology Letters, BMC Biology, BMC Evolutionary Biology, BMC Genomics, Current Opinion in Insect Science, Ecological Research, Ecology, Ecology and Evolution, Ecology Letters, Insectes Sociaux, Journal of Animal Ecology, Journal of Evolutionary Biology, Journal of Visualized Experiments, Molecular Biology and Evolution, Molecular Ecology, Molecular Ecology Resources, Nature Ecology & Evolution, Philosophical Transactions of the Royal Society B: Biological Sciences, PLoS Computational Biology (Guest Editor), PLoS Genetics, Proceedings of the Royal Society B: Biological Sciences, Scientific Data, Scientific Reports, Toxins"
     -
-      item: "Journals: \\emph{Archive for  Mathematical Logic}, \\emph{American Philosophical Quarterly}, \\emph{Bulletin of Symbolic Logic}, \\emph{Dialectica}, \\emph{Ergo}, \\emph{Erkenntnis}, \\emph{European Journal for Philosophy of Science}, \\emph{Historia Mathematica}, \\emph{History and Philosophy of Logic}, \\emph{Journal of Applied Logic}, \\emph{Journal of Philosophical Logic}, \\emph{Journal of Symbolic Logic}, \\emph{Journal of Applied Non-Classical Logics}, \\emph{Journal of Humanistic Mathematics}, \\emph{Journal of Logic and Computation}, \\emph{Journal of Logic, Language, and Information}, \\emph{Logic Journal of the IGPL}, \\emph{Logic and Logical Philosophy}, \\emph{Journal for the History of Analytic Philosophy}, \\emph{Mathematical Logic Quarterly}, \\emph{Mind}, \\emph{Notre Dame Journal of Formal Logic}, \\emph{Philosopher's Imprint}, \\emph{Philosophia Mathematica}, \\emph{Philosophical Transactions of the Royal Society A}, \\emph{Review of Symbolic Logic}, \\emph{Studia Logica}, \\emph{Studies in History and Philosophy of Science}, \\emph{Synthese}, \\emph{Theoretical Computer Science}"
-    -
-      item: "Conferences: Indian Conference on Logic and its Applications 2019; Logica 2018; Western Canadian Philosophy Association 2002, 2004, 2016, 2018; Canadian Philosophical Association 2003, 2006, 2008, 2017; Workshops on Computer Science Logic 1994, 1995, 2002, 2017; Logic in Computer Science 2015; Computability in Europe 2008; Logic for Programming and Automated Reasoning 1992, 2005, 2007; World Congress on Universal Logic 2005; Society for Exact Philosophy 2005; International Joint Conference on Automated Reasoning 2004; International Symposia on Multiple Valued Logic 1994, 1998; Kurt Gödel Colloquia 1993, 1997; International Conference on Automated Deduction 1994, 2004; European Conference on Artificial Intelligence 1994; Workshop on Tableau-based Deduction, 1993"
-    -
-      item: "Granting Agencies: Austrian Science Fund, Fonds Québéquois de Recherche sur la Société et Culture, Natural Sciences and Engineering Research Council of Canada NSERC, Research Foundation Flanders, Social Sciences and Humanities Research Council of Canada SSHRC, Deutsche Forschungsgemeinschaft, Canada Council for the Arts, Israel Science Foundation, Nederlands Organization for Scientific Research, Swiss National Science Foundation"
+      item: "\\textbf{Granting Agencies}: Australian Research Concil, Deutsche Forschungsgemeinschaft, U.S. National Science Foundation"
 
 grants:
-- type: Teaching Activity Grant, Faculty of Arts, University of Calgary
-  title: "How Do We Know?"
-  date: 2018
-  value: CAD 1,000
-  note: "Co-applicant: Megan Delehanty"
 -
-  type:  Scholarship of Teaching and Learning Grant, University of Calgary
-  title: Logic for the 21st Century
-  date: 2016--2017
-  value: CAD 36,820
-  note: "Co-applicants: Nicole Wyatt and Aaron Thomas-Bolduc"
+  type: Vice-Chancellor's Teaching Enhancement Grant
+  title: "Teaching quantitative skills to biologists using an interactive virtual environment"
+  funder: Australian National University
+  date: 2019
+  value: AU$ $9,989
+  note: "Project Lead, Co-applicants:  Robert Lanfear, Teresa Neeman, Dan Noble and Eric Stone"  
+  grant: true
+-
+  type: KAKENHI Fund for the Promotion of Joint International Research
+  title: "Using machine vision to understand causes and consequences of collective behavior in a honey bee society"
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
+  date: 2016
+  value: ¥13,130,000
+  number: 16KK0175
+  grant: true
+-
+  type: Future Fellowship
+  title: "The origins, global spread and evolution of novel honey bee parasites"
+  date: 2018
+  value: AU$ 809,000
+  funder: Australian Research Council 
+  number: FT160100178
+  fellowship: true
+-
+  type: Discovery Project
+  title: "Resolving the role of DNA methylation in insect social evolution"
+  date: 2018
+  value: AU$ 380,000
+  funder: Australian Research Council 
+  number: DP170100772
+  note: Co-investigator with Luke Holman
+  grant: true
+-
+  type: KAKENHI Grant-in-Aid for Scientific Research (B)
+  title: "Origins, spread and evolution of novel honey bee parasites and diseases"
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan  
+  date: 2018
+  value: ¥16,900,000 
+  number: 18H02216
+  grant: true
+-
+  type: KAKENHI Young Scientist (A)
+  title: "Genetic control of honeybee dance"
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan  
+  date: 2016
+  value: ¥16,640,000
+  number: 16H06209
+  grant: true
+-
+  type: KAKENHI (S)
+  title: "Royal Epigenetics: Molecular basis of the extended longevity of reproductives in social insects"
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan  
+  date: 2013
+  value: ¥212,940,000
+  number: 25221206
+  note: "co-PI with Kenji Matsuura (lead), Iuchi Yoshihito and Masaki Kamakura"
+  grant: true
+-
+  type: KAKENHI Young Scientist (B)
+  title: "Study of sex determination mechanisms in \\textit{Wasmannia auropunctata}"
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan  
+  date: 2013
+  value: ¥1,430,000
+  number: 24770034
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
+  grant: true
+-
+  type: Division Of Environmental Biology
+  title: "Phylogenetic research on the origin and evolution of agriculture in ants"
+  date: 2010
+  value: $444,988.00
+  number: 0949689
+  funder: United States National Science Foundation
+  note: "Co-Pi with Ted Schultz (Principal Investigator), Charles Mitter, Ulrich Mueller and Natasha Mehdiabadi"
+  grant: true
+-
+  type: Fellowship to Cameroon and Gabon
+  title: "Impact of an invasive ant on mainland Africa"
+  funder: Fulbright Foundation
+  date: 2005--2006
+  remarks: "This fellowship has a ~15% funding rate to Sub-Saharan Africa"
+  fellowship: true
+-
+  type: STAR pre-doctoral fellowship
+  title: "Worldwide traffic, impact and the evolutionary trajectory of invasive populations in the little fire ant \\textit{Wasmannia auropunctata}"
+  funder: Environmental Protection Agency
+  date: 2004--2005
+  remarks: "This fellowship has a ~15% funding rate to Sub-Saharan Africa"
+  fellowship: true
 
+outreach:
+- 
+  type: TV Interview
+  gigs:
+  -
+    date: 2019-05-08
+    title: "Commenting on the use of neonicotinoid pesticides"
+    host: SBS News
+    webpage: https://www.sbs.com.au/news/australian-beekeepers-call-for-ban-on-potentially-harmful-pesticide
+- 
+  type: Public talk
+  gigs:
+  -
+    date: 2019-03-08
+    event: "OBJECTively - Connecting Australia and Japan: objects, cultural stories, people"
+    title: "Coversations: bee parasitc mites"
+    host: "Japan Institute, ANU College of Asia & the Pacific"
+    webpage: http://japaninstitute.anu.edu.au/events/objectively-connecting-australia-and-japan-objects-cultural-stories-people
 ...

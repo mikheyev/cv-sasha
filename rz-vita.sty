@@ -31,20 +31,28 @@
 %% Fonts and colours
 %% ------------------------------------------------------------------------
 %% needed for xelatex to work
-%\usepackage{fontspec}
+\usepackage{fontspec}
 %\usepackage{xunicode}
+\usepackage{fontawesome}
 
 %% color for the links
 \usepackage[usenames,dvipsnames]{xcolor}
 \definecolor{ImperialBlue}{rgb}{0.082,0.416,0.608}
 \definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
 
-%% Use Baskerville
+%% color for the links
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{ImperialBlue}{rgb}{0.082,0.416,0.608}
+\definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
 
-\usepackage[sfdefault]{universalis}
-\usepackage[osf]{Baskervaldx} % oldstyle figures
-\usepackage[bigdelims,baskervaldx]{newtxmath}
-\usepackage[cal=boondoxo]{mathalfa}
+%% Choose fonts for use with xelatex
+%% Minion and Myriad are widely available, from Adobe.
+%% Pragmata is available to buy at http://www.fsd.it/fonts/pragma.htm
+%% and is worth every penny. Any good monospace font will work fine, though.
+%% Consolas or inconsolata are good alternatives.
+\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Minion Pro}
+\setsansfont[Mapping=tex-text,Colour=ImperialBlue]{Myriad Pro}
+\setmonofont[Mapping=tex-text,Scale=0.9]{Inconsolata} % Consolas, Pragmata, Lucida Console
 
 %% ------------------------------------------------------------------------
 %% Header and footer
@@ -188,7 +196,7 @@
 \titlespacing*{\section}{2cm}{2.5ex}{0.5cm}
 
 % Subsection styling
-\titleformat{\subsection}{\subskip\itshape}{}{0pt}{}[]
+\titleformat{\subsection}{\subskip\bf\color{ImperialLightBlue}}{}{0pt}{}[]
 \titlespacing*{\subsection}{0pt}{2ex}{1ex}
 
 \raggedbottom

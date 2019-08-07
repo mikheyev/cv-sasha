@@ -5,8 +5,11 @@ all: cv-mikheyev.pdf
 #pdf:   clean $(PDFS)
 #html:  clean $(HTML)
 
+validate_yaml:
+	@python -c 'import yaml,sys;yaml.safe_load(sys.stdin)' < curriculum_vitae.yaml
+
 %.pdf: %.tex FORCE_MAKE
-	latexmk -dvi- -pdf $*
+	latexmk -lualatex -dvi-  $*
 
 yaml-cv.md: curriculum_vitae.yaml
 # Pandoc can't actually read YAML, just YAML blocks in
@@ -26,8 +29,9 @@ yaml-cv.md: curriculum_vitae.yaml
 %-scholar.tex: FORCE_MAKE
 	Rscript scholar.R > $@
 
-%.md: template-%.md yaml-cv.md
-	sed 's/-[0-9][0-9]-[0-9][0-9]//g;s/\\\\emph{\([^}]*\)}/_\1_/g;' yaml-cv.md | pandoc --template=$< -t markdown | sed 's/--/–/g' > $@
+%.md: template-%.md yaml-cv.md mikheyev.bib
+# for some reason pandoc inserts ::: into the references and I manually remove them
+	sed 's/-[0-9][0-9]-[0-9][0-9]//g;s/\\\\emph{\([^}]*\)}/_\1_/g;' yaml-cv.md | pandoc --template=$< -t markdown | pandoc --filter pandoc-citeproc --bibliography=mikheyev.bib  -t markdown | grep -v  '^:::'  > $@
 
 %.html: %.md
 	pandoc -f markdown -t html $< > $@
