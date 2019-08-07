@@ -18,9 +18,9 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
    (see `rz-vita.sty`).
 1. Bibliography includes links to [PhilPapers](https://philpapers.org/)
 1. Bibliography also prints number of Google Scholar
-   citations. `zach.bib` contains `scholar` fields that contains the
+   citations. `mikheyev.bib` contains `scholar` fields that contains the
    Google Scholar cluster ID corresponding to an entry. The Makefile
-   produces a file `cv-zach-scholar.tex` from this. It issues, for
+   produces a file `cv-mikheyev-scholar.tex` from this. It issues, for
    each entry that has citations, a command `\defscholar{<clusterid>}{<citations>}`.
    It is generated in the Makefile using a little script `citecounts`,
    which in turn uses [scholar.py](https://github.com/ckreibich/scholar.py) to query

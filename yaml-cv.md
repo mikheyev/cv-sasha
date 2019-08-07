@@ -89,10 +89,6 @@ awards:
     agency: Australian Research Council
     date: 2016-2020
   -
-    title: Postdoctoral fellowship in biological informatics (\textit{declined})
-    agency: U.S. Natinal Science Foundation
-    date: 2009
-  -
     title: George H. Mitchell Award for Excellence in Graduate Research
     agency: University of Texas
     date: 2008
@@ -260,19 +256,19 @@ presentation:
     link: http://ecoevo.unit.oist.jp/lab/?p=1106
   -
     title: "Whole genome re-sequencing of museum specimens revels resilience to disease in a feral population of European honey bees"
-    host: University of Southern California, 
+    host: University of Southern California,
     place: Los Angeles, California, United States
     date: 2014-00-00
     invited: true
   -
     title: "Whole genome re-sequencing of museum specimens revels resilience to disease in a feral population of European honey bees"
-    host: University of Southern California, 
+    host: University of Southern California,
     place: Los Angeles, California, United States
     date: 2014-00-00
     invited: true
   -
     title: "Working with degraded DNA: laboratory and bioinformatic approaches"
-    host: University of Southern California, 
+    host: University of Southern California,
     place: Los Angeles, California, United States
     date: 2014-00-00
     invited: true
@@ -293,13 +289,13 @@ presentation:
     host: School of Life Sciences, Arizona State University
     place: Tempe, Arizona
     date: 2013-00-00
-    invited: true    
+    invited: true
   -
     title: "Using museum collections to understand how honey bees have survived a disease pandemic"
     host: School of Life Sciences, Arizona State University
     place: Tempe, Arizona
     date: 2013-00-00
-    invited: true    
+    invited: true
   -
     title: "Using museum collections to understand how honey bees have survived a disease pandemic"
     host: Integrative Biology, University of Texas
@@ -484,7 +480,7 @@ grants:
   funder: Australian National University
   date: 2019
   value: AU$ $9,989
-  note: "Project Lead, Co-applicants:  Robert Lanfear, Teresa Neeman, Dan Noble and Eric Stone"  
+  note: "Project Lead, Co-applicants:  Robert Lanfear, Teresa Neeman, Dan Noble and Eric Stone"
   grant: true
 -
   type: KAKENHI Fund for the Promotion of Joint International Research
@@ -499,7 +495,7 @@ grants:
   title: "The origins, global spread and evolution of novel honey bee parasites"
   date: 2018
   value: AU$ 809,000
-  funder: Australian Research Council 
+  funder: Australian Research Council
   number: FT160100178
   fellowship: true
 -
@@ -507,22 +503,22 @@ grants:
   title: "Resolving the role of DNA methylation in insect social evolution"
   date: 2018
   value: AU$ 380,000
-  funder: Australian Research Council 
+  funder: Australian Research Council
   number: DP170100772
   note: Co-investigator with Luke Holman
   grant: true
 -
   type: KAKENHI Grant-in-Aid for Scientific Research (B)
   title: "Origins, spread and evolution of novel honey bee parasites and diseases"
-  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan  
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
   date: 2018
-  value: ¥16,900,000 
+  value: ¥16,900,000
   number: 18H02216
   grant: true
 -
   type: KAKENHI Young Scientist (A)
   title: "Genetic control of honeybee dance"
-  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan  
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
   date: 2016
   value: ¥16,640,000
   number: 16H06209
@@ -530,7 +526,7 @@ grants:
 -
   type: KAKENHI (S)
   title: "Royal Epigenetics: Molecular basis of the extended longevity of reproductives in social insects"
-  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan  
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
   date: 2013
   value: ¥212,940,000
   number: 25221206
@@ -539,7 +535,7 @@ grants:
 -
   type: KAKENHI Young Scientist (B)
   title: "Study of sex determination mechanisms in \\textit{Wasmannia auropunctata}"
-  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan  
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
   date: 2013
   value: ¥1,430,000
   number: 24770034
@@ -555,22 +551,29 @@ grants:
   note: "Co-Pi with Ted Schultz (Principal Investigator), Charles Mitter, Ulrich Mueller and Natasha Mehdiabadi"
   grant: true
 -
+    type: Postdoctoral fellowship in biological informatics (\textit{declined})
+    title: "Massive horizontal gene transfer in bdelloid rotifers: gathering junk or evolutionary innovation?"
+    funder: U.S. Natinal Science Foundation
+    date: 2009
+    fellowship: true
+    note: A total of 15 fellowships per year are awarded country-wide. Declined in order to take up an independent position in Japan.
+-
   type: Fellowship to Cameroon and Gabon
   title: "Impact of an invasive ant on mainland Africa"
   funder: Fulbright Foundation
   date: 2005--2006
-  remarks: "This fellowship has a ~15% funding rate to Sub-Saharan Africa"
+  note: "This fellowship has a ~15% funding rate to Sub-Saharan Africa"
   fellowship: true
 -
   type: STAR pre-doctoral fellowship
   title: "Worldwide traffic, impact and the evolutionary trajectory of invasive populations in the little fire ant \\textit{Wasmannia auropunctata}"
   funder: Environmental Protection Agency
   date: 2004--2005
-  remarks: "This fellowship has a ~15% funding rate to Sub-Saharan Africa"
+  note: "Median grant application award rate of 16% in 2003-2014"
   fellowship: true
 
 outreach:
-- 
+-
   type: TV Interview
   gigs:
   -
@@ -578,7 +581,7 @@ outreach:
     title: "Commenting on the use of neonicotinoid pesticides"
     host: SBS News
     webpage: https://www.sbs.com.au/news/australian-beekeepers-call-for-ban-on-potentially-harmful-pesticide
-- 
+-
   type: Public talk
   gigs:
   -
