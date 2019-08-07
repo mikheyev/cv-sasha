@@ -322,7 +322,7 @@ presentation:
     conference: true
     covered: true
   -
-    title: Invasion of lowland rainforest by their little fire ant \\textit{Wasmannia auropunctata}"
+    title: "Invasion of lowland rainforest by their little fire ant \\textit{Wasmannia auropunctata}"
     host: Department and Graduate Institute of Entomology, National Taiwan University
     place: Taipei, Taiwan
     date: 2011-00-00
