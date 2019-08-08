@@ -32,12 +32,13 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 1. Removed python dependency and use R instead to get both impact factors and citations
    - Need to install R with [scholar](https://github.com/jkeirstead/scholar) and [glue](https://github.com/tidyverse/glue) plugins
 1. Now also added an I.F. field.
+1. Encrypted `curriculum_vitae.yaml` using `git secret` so that I can have private information there.
 
 ## Bib file requirements
 
 1. The bib file has to have a `keyword` that matches existing publication types
 1. You need to add a `scholar` field that is used to reference citations (see [Getting metadata from Google Scholar](#getting-metadata-from-google-scholar))
-1. For
+1. You also need a `pubid` category to get journal impact factors (see [Getting metadata from Google Scholar](#getting-metadata-from-google-scholar))
 
 ## Issues
 
