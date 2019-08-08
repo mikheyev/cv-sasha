@@ -22,14 +22,14 @@ appointment:
     place: Australian National University, Research School of Biology
     items:
       -
+        item: Associate Dean (International) (0.2 FTE)
+        begindate: 2019-00-00
+      -
         item: Senior Lecturer
         begindate: 2018-06-01
       -
         item: Group Leader (Future Fellow)
         begindate: 2017-07-30
-      -
-        item: Associate Dean (International)
-        begindate: 2019-00-00
   -
     place: Okinawa Institute of Science and Technology
     items:
@@ -56,15 +56,15 @@ editor:
     role: Editor-in-Chief
     begindate: 2019-07-01
   -
-    item: Myrmecological News
-    link: http://openlogicproject.org/
-    role: Subject Editor
-    begindate: 2013-00-00
-  -
     item: PeerJ
     link: https://peerj.com/sasha/
     role: Academic Editor
     begindate: 2015-00-00
+  -
+    item: Myrmecological News
+    link: http://openlogicproject.org/
+    role: Subject Editor
+    begindate: 2013-00-00
 
 education:
   -
@@ -87,7 +87,7 @@ awards:
   -
     title: Future Fellowship (level 2)
     agency: Australian Research Council
-    date: 2016-2020
+    date: 2016
   -
     title: George H. Mitchell Award for Excellence in Graduate Research
     agency: University of Texas
@@ -256,19 +256,19 @@ presentation:
     link: http://ecoevo.unit.oist.jp/lab/?p=1106
   -
     title: "Whole genome re-sequencing of museum specimens revels resilience to disease in a feral population of European honey bees"
-    host: University of Southern California,
+    host: University of Southern California
     place: Los Angeles, California, United States
     date: 2014-00-00
     invited: true
   -
     title: "Whole genome re-sequencing of museum specimens revels resilience to disease in a feral population of European honey bees"
-    host: University of Southern California,
+    host: University of Southern California
     place: Los Angeles, California, United States
     date: 2014-00-00
     invited: true
   -
     title: "Working with degraded DNA: laboratory and bioinformatic approaches"
-    host: University of Southern California,
+    host: University of Southern California
     place: Los Angeles, California, United States
     date: 2014-00-00
     invited: true
@@ -309,6 +309,13 @@ presentation:
     date: 2013-00-00
     invited: true
   -
+    title: "Evolutionary fate of horizontally acquired genes in bdelloid rotifers"
+    host: Ehwa Womans University
+    place: Seoul, Korea
+    date: 2013-00-00
+    invited: true
+    covered: true
+  -
     title: "Using museum collections to understand how honey bees have survived a disease pandemic"
     host: CAS-MPG Partner Institute for Computational Biology
     place: Shanghai, China
@@ -327,13 +334,6 @@ presentation:
     place: Taipei, Taiwan
     date: 2011-00-00
     conference: true
-  -
-    title: "Evolutionary fate of horizontally acquired genes in bdelloid rotifers"
-    host: Ehwa Womans University
-    place: Seoul, Korea
-    date: 2013-00-00
-    invited: true
-    covered: true
   -
     title: "Ecology and evolution: the next synthesis"
     host: Sydney Brenner commemorative symposium, Okinawa Institute of Science and Technology
@@ -382,7 +382,7 @@ teaching:
       title: "Biology"
       number: B02
       role: sole instructor
-      date: 2012 -- 2015
+      date: 2012--2015
       type: grad
     -
       title: Quantitative Evolutionary Comparative Biology Workshop
@@ -443,15 +443,15 @@ students:
     type: Honours/Masters Committee Member
     students:
     -
-      name: Holly Sargent
-      degree: "Honours, supervisor: Craig Moritz"
-      thesis: Genetic erosion of island marsupial populations
-      date: 2018
-    -
       name: Somasundhari Shanmuganadam
       degree: "Masters, supervisors: Benjamin Schwessinger /Robyn Hall"
       thesis: Uncovering the Hare microbiome
       date: 2019
+    -
+      name: Holly Sargent
+      degree: "Honours, supervisor: Craig Moritz"
+      thesis: Genetic erosion of island marsupial populations
+      date: 2018
 
 service:
 -
@@ -483,14 +483,6 @@ grants:
   note: "Project Lead, Co-applicants:  Robert Lanfear, Teresa Neeman, Dan Noble and Eric Stone"
   grant: true
 -
-  type: KAKENHI Fund for the Promotion of Joint International Research
-  title: "Using machine vision to understand causes and consequences of collective behavior in a honey bee society"
-  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
-  date: 2016
-  value: ¥13,130,000
-  number: 16KK0175
-  grant: true
--
   type: Future Fellowship
   title: "The origins, global spread and evolution of novel honey bee parasites"
   date: 2018
@@ -514,6 +506,14 @@ grants:
   date: 2018
   value: ¥16,900,000
   number: 18H02216
+  grant: true
+-
+  type: KAKENHI Fund for the Promotion of Joint International Research
+  title: "Using machine vision to understand causes and consequences of collective behavior in a honey bee society"
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
+  date: 2016
+  value: ¥13,130,000
+  number: 16KK0175
   grant: true
 -
   type: KAKENHI Young Scientist (A)
@@ -551,12 +551,12 @@ grants:
   note: "Co-Pi with Ted Schultz (Principal Investigator), Charles Mitter, Ulrich Mueller and Natasha Mehdiabadi"
   grant: true
 -
-    type: Postdoctoral fellowship in biological informatics (\textit{declined})
-    title: "Massive horizontal gene transfer in bdelloid rotifers: gathering junk or evolutionary innovation?"
-    funder: U.S. Natinal Science Foundation
-    date: 2009
-    fellowship: true
-    note: A total of 15 fellowships per year are awarded country-wide. Declined in order to take up an independent position in Japan.
+  type: Postdoctoral fellowship in biological informatics (\textit{declined})
+  title: "Massive horizontal gene transfer in bdelloid rotifers: gathering junk or evolutionary innovation?"
+  funder: U.S. Natinal Science Foundation
+  date: 2009
+  fellowship: true
+  note: A total of 15 fellowships per year are awarded country-wide. Declined in order to take up an independent position in Japan.
 -
   type: Fellowship to Cameroon and Gabon
   title: "Impact of an invasive ant on mainland Africa"
