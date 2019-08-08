@@ -32,7 +32,7 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 1. Removed python dependency and use R instead to get both impact factors and citations
    - Need to install R with [scholar](https://github.com/jkeirstead/scholar) and [glue](https://github.com/tidyverse/glue) plugins
 1. Now also added an I.F. field.
-1. Encrypted `curriculum_vitae.yaml` using `git secret` so that I can have private information there.
+1. Encrypted `curriculum_vitae.yaml` using `git secret` so that I can have private information there. Check out this [Richar Zach's](https://github.com/rzach/cv-zach/blob/master/curriculum_vitae.yaml) for an example of formatting
 
 ## Bib file requirements
 
