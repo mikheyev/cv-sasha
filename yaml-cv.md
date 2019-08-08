@@ -103,6 +103,12 @@ awards:
 
 presentation:
   -
+    title: "The microbiome wants what it wants: microbial evolution overtakes experimental host-mediated indirect selection"
+    host: Australian National University, Research School of Biology Faculty Flash
+    place: Canberra, Australia
+    date: 2019-06-26
+    local: true
+  -
     title: TBD
     host: Viikki Lectures, University of Helsinki
     place: Helsinki, Finland
@@ -262,13 +268,13 @@ presentation:
     invited: true
   -
     title: "Whole genome re-sequencing of museum specimens revels resilience to disease in a feral population of European honey bees"
-    host: University of Southern California
+    host: University of Southern California,
     place: Los Angeles, California, United States
     date: 2014-00-00
     invited: true
   -
     title: "Working with degraded DNA: laboratory and bioinformatic approaches"
-    host: University of Southern California
+    host: University of Southern California,
     place: Los Angeles, California, United States
     date: 2014-00-00
     invited: true
@@ -471,7 +477,7 @@ service:
     -
       item: "\\textbf{Journals}: Applied Sciences, Bioinformatics, Biology Letters, BMC Biology, BMC Evolutionary Biology, BMC Genomics, Current Opinion in Insect Science, Ecological Research, Ecology, Ecology and Evolution, Ecology Letters, Insectes Sociaux, Journal of Animal Ecology, Journal of Evolutionary Biology, Journal of Visualized Experiments, Molecular Biology and Evolution, Molecular Ecology, Molecular Ecology Resources, Nature Ecology & Evolution, Philosophical Transactions of the Royal Society B: Biological Sciences, PLoS Computational Biology (Guest Editor), PLoS Genetics, Proceedings of the Royal Society B: Biological Sciences, Scientific Data, Scientific Reports, Toxins"
     -
-      item: "\\textbf{Granting Agencies}: Australian Research Concil, Deutsche Forschungsgemeinschaft, U.S. National Science Foundation"
+      item: "\\textbf{Granting Agencies}: Australian Research Concil, Deutsche Forschungsgemeinschaft, Israeli Ministry of Science and Technology (MOST), U.S. National Science Foundation"
 
 grants:
 -

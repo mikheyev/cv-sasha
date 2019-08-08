@@ -31,6 +31,9 @@
 *.vrb
 *.xdy
 *.tdo
+*.bcf
+*.pdf
+*.xml
 *#
 *~
 *.gin
