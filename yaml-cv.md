@@ -107,12 +107,19 @@ presentation:
     host: Australian National University, Research School of Biology Faculty Flash
     place: Canberra, Australia
     date: 2019-06-26
-    local: true
+    anu: true
   -
     title: TBD
     host: Viikki Lectures, University of Helsinki
     place: Helsinki, Finland
     date: 2020-00-00
+    invited: true
+    covered: true
+  -
+    title: TBD
+    host: Australian Bee Genomics Working Group, 2nd Australian Native Bee Conference
+    place: Brisbane, Australia
+    date: 2019-12-00
     invited: true
     covered: true
   -
@@ -251,7 +258,7 @@ presentation:
     host: OIST-NTU Invasive Ant Symposium, Okinawa Institute of Science and Technology
     place: Okinawa, Japan
     date: 2014-00-00
-    local: true
+    anu: true
     link: http://ecoevo.unit.oist.jp/lab/?p=1106
   -
     title: "Molecular signatures of ancient mutualistic coevolution in attine ants and their fungal cultivars"
@@ -345,7 +352,7 @@ presentation:
     host: Sydney Brenner commemorative symposium, Okinawa Institute of Science and Technology
     place: Okinawa, Japan
     date: 2011-00-00
-    local: true
+    anu: true
   -
     title: "The role of adaptation and mutualistic interactions in the invasion of an African rainforest by the little fire ant \\textit{Wasmannia auropunctata}"
     host: Rice University
@@ -466,9 +473,27 @@ service:
     -
       item: Indian Institute of Technology Madras Joint Degree Program steering committee
       date: 2019--
+      anu: true
+    -
+      item: Joint management committee for the Australian National University/Shandong University Joint Science College
+      date: 2019--
+-
+  type: "Senior Lecturer, Research School of Biology, Australian National University"
+  gigs:
+    -
+      item: Hiring committee member for BIOL2202 convener
+      date: 2019
+      anu: true
+    -
+      item: Animal User Group
+      date: 2019
+      anu: true
 -
   type: Professional Organizations
   gigs:
+    -
+      item: Australian Entomological Society, Education Committee member
+      date: 2018--
     -
       item: Australian Entomological Society, Education Committee member
       date: 2018--

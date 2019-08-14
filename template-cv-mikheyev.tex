@@ -147,7 +147,7 @@ $endfor$
 \subsection{Local Talks}
 
 $for(presentation)$
-$if(presentation.local)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
+$if(presentation.anu)$\ind ``$presentation.title$.'' $if(presentation.host)$\emph{$presentation.host$}, $endif$$presentation.place$, \printdate{$presentation.date$}.
 
 $endif$
 $endfor$
@@ -181,6 +181,5 @@ $for(outreach.gigs)$
 
 $endfor$
 $endfor$
-
 
 \end{document}
