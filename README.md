@@ -16,7 +16,6 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 1. Also generate CV in other formats (eg, MarkDown).
 1. Bibliography is done using `biblatex`, using keywords instead of categories
    (see `rz-vita.sty`).
-1. Bibliography includes links to [PhilPapers](https://philpapers.org/)
 1. Bibliography also prints number of Google Scholar
    citations. `mikheyev.bib` contains `scholar` fields that contains the
    Google Scholar cluster ID corresponding to an entry. The Makefile
@@ -32,7 +31,6 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 1. Removed python dependency and use R instead to get both impact factors and citations
    - Need to install R with [scholar](https://github.com/jkeirstead/scholar) and [glue](https://github.com/tidyverse/glue) plugins
 1. Now also added an I.F. field.
-1. Encrypted `curriculum_vitae.yaml` using `git secret` so that I can have private information there. Check out this [Richar Zach's](https://github.com/rzach/cv-zach/blob/master/curriculum_vitae.yaml) for an example of formatting
 
 ## Bib file requirements
 
@@ -49,6 +47,10 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 - The citations and IFs are pulled manually not to anger Google using make `make cv-mikheyev-scholar.tex` before doing anything else.
 - To compile the pdf run `make`
 - To compile markdown run `make cv-mikheyev.md`
+
+## Troubleshooting
+
+- If you don't see contenten in your PDF, you most likely messed up formatting on the yaml file -- it's a finicky format. Pandoc doesn't give you an error in this case. Double check syntax using an online [yaml validator](https://yamlvalidator.com/).
 
 ## Getting metadata from Google Scholar
 

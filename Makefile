@@ -5,9 +5,6 @@ all: cv-mikheyev.pdf
 #pdf:   clean $(PDFS)
 #html:  clean $(HTML)
 
-validate_yaml:
-	@python -c 'import yaml,sys;yaml.safe_load(sys.stdin)' < curriculum_vitae.yaml
-
 %.pdf: %.tex FORCE_MAKE
 	latexmk -lualatex -dvi-  $*
 

@@ -25,8 +25,12 @@ appointment:
         item: Associate Dean (International) (0.2 FTE)
         begindate: 2019-00-00
       -
+        item: Associate Professor
+        begindate: 2020-01-01
+      -
         item: Senior Lecturer
         begindate: 2018-06-01
+        enddate: 2019-31-12
       -
         item: Group Leader (Future Fellow)
         begindate: 2017-07-30
@@ -36,6 +40,7 @@ appointment:
       -
         item: Associate Professor (adjunct)
         begindate: 2017-00-00
+        enddate: 2021-00-00
       -
         item: Associate Professor
         begindate: 2015-00-00
@@ -54,7 +59,8 @@ editor:
     item: Journal of Tropical Ecology
     link: https://mc.manuscriptcentral.com/jte
     role: Editor-in-Chief
-    begindate: 2019-07-01
+    begindate: 2019-00-00
+    enddate: 2020-00-00
   -
     item: PeerJ
     link: https://peerj.com/sasha/
@@ -103,20 +109,26 @@ awards:
 
 presentation:
   -
+    title: TBD
+    host: Viikki Lectures, University of Helsinki
+    place: Helsinki, Finland
+    date: 2021-00-00
+    invited: true
+    covered: true
+  -
     title: "The microbiome wants what it wants: microbial evolution overtakes experimental host-mediated indirect selection"
     host: Australian National University, Research School of Biology Faculty Flash
     place: Canberra, Australia
     date: 2019-06-26
     anu: true
   -
-    title: TBD
-    host: Viikki Lectures, University of Helsinki
-    place: Helsinki, Finland
-    date: 2020-00-00
-    invited: true
-    covered: true
+    title: "The microbiome wants what it wants: microbial evolution overtakes experimental host-mediated indirect selection"
+    host: Australian National University, Research School of Biology Faculty Flash
+    place: Canberra, Australia
+    date: 2019-06-26
+    anu: true
   -
-    title: TBD
+    title: How to design a study using next-generation sequencing tools
     host: Australian Bee Genomics Working Group, 2nd Australian Native Bee Conference
     place: Brisbane, Australia
     date: 2019-12-00
@@ -380,13 +392,13 @@ teaching:
       title: "Ecology"
       role: lecturer
       number: BIOL2131
-      date: 2019
+      date: 2012 -- 2021
       type: undergad
     -
       title: "Evolution"
       role: lecturer
       number: BIOL2114
-      date: 2017 -- 2019
+      date: 2017 -- 2021
       type: undergad
   -
     school: Okinawa Institute of Science and Technology Graduate University
@@ -443,6 +455,10 @@ students:
       thesis: "To be or not to be a Queen – Caste-specific gene expression patterns in ants"
       link: https://pdfs.semanticscholar.org/ce84/0a0475d80c276d36c4e6f6fa7a00d0f3524c.pdf
       date: 2015
+    -
+      name: Agneesh Barua
+      degree: PhD
+      date: 2021
   -
     type: External Examiner
     students:
@@ -465,6 +481,21 @@ students:
       degree: "Honours, supervisor: Craig Moritz"
       thesis: Genetic erosion of island marsupial populations
       date: 2018
+  -
+    type: Undergraduate Research Project Supervision
+    students:
+    -
+      name: Emily Jones
+      degree: "PhB"
+      thesis: "Selection for host phenotype extremes via manipulation of the symbiotic interactions between rhizobia and the soybean plant"
+      date: 2021
+    -
+      name: Zaran Zahid
+      degree: "PhB"
+      thesis: "Using computer vision to determine the foraging activity of honeybees in a 2-D beehive"
+      date: 2021
+
+
 
 service:
 -
@@ -481,36 +512,51 @@ service:
   type: "Senior Lecturer, Research School of Biology, Australian National University"
   gigs:
     -
-      item: Hiring committee member for BIOL2202 convener
-      date: 2019
-      anu: true
-    -
-      item: Animal User Group
-      date: 2019
-      anu: true
+  item: "Co-organizer: symposium on Host-Microbiome Interactions – from Structure to Function"
+  date: 2019-10-18
 -
   type: Professional Organizations
   gigs:
     -
       item: Australian Entomological Society, Education Committee member
       date: 2018--
-    -
-      item: Australian Entomological Society, Education Committee member
-      date: 2018--
 - type: Reviewer
   gigs:
     -
-      item: "\\textbf{Journals}: Applied Sciences, Bioinformatics, Biology Letters, BMC Biology, BMC Evolutionary Biology, BMC Genomics, Current Opinion in Insect Science, Ecological Research, Ecology, Ecology and Evolution, Ecology Letters, Insectes Sociaux, Journal of Animal Ecology, Journal of Evolutionary Biology, Journal of Visualized Experiments, Molecular Biology and Evolution, Molecular Ecology, Molecular Ecology Resources, Nature Ecology & Evolution, Philosophical Transactions of the Royal Society B: Biological Sciences, PLoS Computational Biology (Guest Editor), PLoS Genetics, Proceedings of the Royal Society B: Biological Sciences, Scientific Data, Scientific Reports, Toxins"
+      item: "\\textbf{Journals}: Applied Sciences, Bioinformatics, Biology Letters, BMC Biology, BMC Evolutionary Biology, BMC Genomics, Communications Biology, Current Opinion in Insect Science, Ecological Research, Ecology, Ecology and Evolution, Ecology Letters, Insectes Sociaux, Journal of Animal Ecology, Journal of Evolutionary Biology, Journal of Visualized Experiments, Molecular Biology and Evolution, Molecular Ecology, Molecular Ecology Resources, Nature Ecology & Evolution, Philosophical Transactions of the Royal Society B: Biological Sciences, PLoS Computational Biology (Guest Editor), PLoS Genetics, Proceedings of the Royal Society B: Biological Sciences, Scientific Data, Scientific Reports, Toxins"
     -
       item: "\\textbf{Granting Agencies}: Australian Research Concil, Deutsche Forschungsgemeinschaft, Israeli Ministry of Science and Technology (MOST), U.S. National Science Foundation"
 
 grants:
 -
+  type: CSIRO ResearchPlus
+  title: "Jointly funded post-doctoral fellow – environmental genomics"
+  funder: CSIRO
+  date: 2020
+  value: AU$ 396,000
+  grant: false
+-
+  type: KAKENHI Grant-in-Aid for Scientific Research Bilateral Grant (with Israel)
+  title: "An integrative 'omics approach to identify chemosensory proteins in the mouth parts of the honey bee parasitic \\textit{Varroa} mite"
+  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
+  date: 2020
+  value: JPY 5,000,000
+  note: "Project Lead, in collaboration with V. Soroker (The Volcani Agriculture Institute, Israel)"
+  grant: true
+-
+  type:  National Computational Merit Allocation Scheme
+  title: "Understanding the advantages of sex, using asexual lineages"
+  funder: National Computational Infrastucture
+  date: 2020
+  value: 40k service units (kSU)
+  note: "Project Lead"
+  grant: true
+-
   type: Vice-Chancellor's Teaching Enhancement Grant
   title: "Teaching quantitative skills to biologists using an interactive virtual environment"
   funder: Australian National University
   date: 2019
-  value: AU$ $9,989
+  value: AU$ 9,989
   note: "Project Lead, Co-applicants:  Robert Lanfear, Teresa Neeman, Dan Noble and Eric Stone"
   grant: true
 -
@@ -570,7 +616,6 @@ grants:
   date: 2013
   value: ¥1,430,000
   number: 24770034
-  funder: Ministry of Education, Culture, Sports, Science & Technology in Japan
   grant: true
 -
   type: Division Of Environmental Biology
@@ -621,4 +666,9 @@ outreach:
     title: "Coversations: bee parasitc mites"
     host: "Japan Institute, ANU College of Asia & the Pacific"
     webpage: http://japaninstitute.anu.edu.au/events/objectively-connecting-australia-and-japan-objects-cultural-stories-people
+  -
+    date: 2019-09-28
+    event: "OBJECTively - Connecting Australia and Japan: objects, cultural stories, people"
+    title: "Bee line between Okinawa and Canberra"
+    host: "Australia - Japan Society (ACT)"
 ...

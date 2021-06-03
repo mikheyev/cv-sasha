@@ -39,8 +39,6 @@
 *.gin
 *.prb
 *.pcr
+*.md
 cv-mikheyev.docx
-cv-mikheyev.md
-.gitsecret/keys/random_seed
-!*.secret
-curriculum_vitae.yaml
+
