@@ -1,0 +1,197 @@
+---
+name: Sasha (Alexander) S. Mikheyev
+address:
+    - Australian National University
+    - Research School of Biology
+    - Divisin of Ecology and Evolution
+    - RN Roberson Building
+    - 46 Sullivans Creek Rd.
+    - Acton, ACT 2601
+    - Australia
+email: sasha@homologo.us
+twitter: amikheyev
+www: homologo.us
+tel: +61 (0) 490 485 469
+scholar: d1Q6iL0AAAAJ
+orcid: 0000-0003-4369-1019
+github: mikheyev
+bibliography: mikheyev.bib
+
+appointment:
+  -
+    place: Australian National University, Research School of Biology
+    items:
+      -
+        item: Associate Dean (International) (0.2 FTE)
+        begindate: 2019-00-00
+      -
+        item: Associate Professor
+        begindate: 2020-01-01
+      -
+        item: Senior Lecturer
+        begindate: 2018-06-01
+        enddate: 2019-31-12
+      -
+        item: Group Leader (Future Fellow)
+        begindate: 2017-07-30
+
+editor:
+  -
+    item: Journal of Tropical Ecology
+    link: https://mc.manuscriptcentral.com/jte
+    role: Editor-in-Chief
+    begindate: 2019-00-00
+    enddate: 2020-00-00
+
+education:
+  -
+    school: University of Texas, Austin
+    degree: PhD
+    field: Integrative Biology
+    date: 2009-05-01
+  -
+
+awards:
+  -
+    title: Future Fellowship (level 2)
+    agency: Australian Research Council
+    date: 2016
+ 
+
+presentation:
+  -
+    title: TBD
+    host: Viikki Lectures, University of Helsinki
+    place: Helsinki, Finland
+    date: 2021-00-00
+    invited: true
+    covered: true
+  -
+    title: "The microbiome wants what it wants: microbial evolution overtakes experimental host-mediated indirect selection"
+    host: Australian National University, Research School of Biology Faculty Flash
+    place: Canberra, Australia
+    date: 2019-06-26
+    anu: true
+
+teaching:
+  -
+    school: Australian National University
+    courses:
+    -
+      title: "Ecology"
+      role: lecturer
+      number: BIOL2131
+      date: 2012 -- 2021
+      type: undergad
+    -
+      title: "Evolution"
+      role: lecturer
+      number: BIOL2114
+      date: 2017 -- 2021
+      type: undergad
+  -
+    school: Okinawa Institute of Science and Technology Graduate University
+    courses:
+    -
+      title: "Biology"
+      number: B02
+      role: sole instructor
+      date: 2012--2015
+      type: grad
+
+students:
+  -
+    type: Supervisor
+    students:
+    -
+      name: Carmen Emborski
+      degree: PhD
+      thesis: "Transgenerational effects of ancestral dietary modifications: investigations of progeny response consistency and modes of transmission"
+      link: https://ttu-ir.tdl.org/bitstream/handle/2346/74394/EMBORSKI-DISSERTATION-2018.pdf
+      date: 2018
+    -
+      name: Claire Morandin
+      degree: PhD
+      thesis: "To be or not to be a Queen – Caste-specific gene expression patterns in ants"
+      link: https://pdfs.semanticscholar.org/ce84/0a0475d80c276d36c4e6f6fa7a00d0f3524c.pdf
+      date: 2015
+    -
+      name: Agneesh Barua
+      degree: PhD
+      date: 2021
+
+
+service:
+-
+  type: "Associate Dean (International), Joint Colleges of Science, Health and Medicine, Australian National University"
+  gigs:
+    -
+      item: Indian Institute of Technology Madras Joint Degree Program steering committee
+      date: 2019--
+      anu: true
+    -
+      item: Joint management committee for the Australian National University/Shandong University Joint Science College
+      date: 2019--
+-
+  type: "Senior Lecturer, Research School of Biology, Australian National University"
+  gigs:
+    -
+  item: "Co-organizer: symposium on Host-Microbiome Interactions – from Structure to Function"
+  date: 2019-10-18
+-
+  type: Professional Organizations
+  gigs:
+    -
+      item: Australian Entomological Society, Education Committee member
+      date: 2018--
+- type: Reviewer
+  gigs:
+    -
+      item: "\\textbf{Journals}: Applied Sciences, Bioinformatics, Biology Letters, BMC Biology, BMC Evolutionary Biology, BMC Genomics, Communications Biology, Current Opinion in Insect Science, Ecological Research, Ecology, Ecology and Evolution, Ecology Letters, Insectes Sociaux, Journal of Animal Ecology, Journal of Evolutionary Biology, Journal of Visualized Experiments, Molecular Biology and Evolution, Molecular Ecology, Molecular Ecology Resources, Nature Ecology & Evolution, Philosophical Transactions of the Royal Society B: Biological Sciences, PLoS Computational Biology (Guest Editor), PLoS Genetics, Proceedings of the Royal Society B: Biological Sciences, Scientific Data, Scientific Reports, Toxins"
+    -
+      item: "\\textbf{Granting Agencies}: Australian Research Concil, Deutsche Forschungsgemeinschaft, Israeli Ministry of Science and Technology (MOST), U.S. National Science Foundation"
+
+grants:
+-
+  type: Future Fellowship
+  title: "The origins, global spread and evolution of novel honey bee parasites"
+  date: 2018
+  value: AU$ 809,000
+  funder: Australian Research Council
+  number: FT160100178
+  fellowship: true
+-
+  type: Discovery Project
+  title: "Resolving the role of DNA methylation in insect social evolution"
+  date: 2018
+  value: AU$ 380,000
+  funder: Australian Research Council
+  number: DP170100772
+  note: Co-investigator with Luke Holman
+  grant: true
+
+
+outreach:
+-
+  type: TV Interview
+  gigs:
+  -
+    date: 2019-05-08
+    title: "Commenting on the use of neonicotinoid pesticides"
+    host: SBS News
+    webpage: https://www.sbs.com.au/news/australian-beekeepers-call-for-ban-on-potentially-harmful-pesticide
+-
+  type: Public talk
+  gigs:
+  -
+    date: 2019-03-08
+    event: "OBJECTively - Connecting Australia and Japan: objects, cultural stories, people"
+    title: "Coversations: bee parasitc mites"
+    host: "Japan Institute, ANU College of Asia & the Pacific"
+    webpage: http://japaninstitute.anu.edu.au/events/objectively-connecting-australia-and-japan-objects-cultural-stories-people
+  -
+    date: 2019-09-28
+    event: "OBJECTively - Connecting Australia and Japan: objects, cultural stories, people"
+    title: "Bee line between Okinawa and Canberra"
+    host: "Australia - Japan Society (ACT)"
+...

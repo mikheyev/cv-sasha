@@ -15,7 +15,7 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 1. Obvs, it's my CV and not his; so there's different sections and organization.
 1. Also generate CV in other formats (eg, MarkDown).
 1. Bibliography is done using `biblatex`, using keywords instead of categories
-   (see `rz-vita.sty`).
+   (see the style file `rz-vita.sty`).
 1. Bibliography also prints number of Google Scholar
    citations. `mikheyev.bib` contains `scholar` fields that contains the
    Google Scholar cluster ID corresponding to an entry. The Makefile
@@ -25,6 +25,7 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
    which in turn uses [scholar.py](https://github.com/ckreibich/scholar.py) to query
    Google Scholar. `rz-vita.sty` loads that file and prints the
    citations.
+1. I keep some CV info required by my university for official purposes private. As a result I use [git-secret](https://git-secret.io/) to encrypt my `curriculum_vitae.yaml` file, which stores all the information. I have an example file in the `example` folder. You can move it to the root folder and mess around with it.
 
 ## Major changes to rzach's setup:
 
@@ -47,6 +48,7 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 - The citations and IFs are pulled manually not to anger Google using make `make cv-mikheyev-scholar.tex` before doing anything else.
 - To compile the pdf run `make`
 - To compile markdown run `make cv-mikheyev.md`
+- Your data should be stored in a 
 
 ## Troubleshooting
 
