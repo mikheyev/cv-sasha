@@ -85,6 +85,23 @@ $if(grants.fellowship)$\ind \textit{$grants.funder$}, $grants.type$, $if(grants.
 $endif$
 $endfor$
 
+\subsection{Other funding}
+$for(grants)$
+$if(grants.other)$\ind \textit{$grants.funder$}, $grants.type$, $if(grants.title)$``$grants.title$''. $endif$$if(grants.value)$ $grants.value$.$endif$ $grants.date$$if(grants.note)$ ($grants.note$)$endif$.
+
+$endif$
+$endfor$
+
+
+\subsection{Minor grants}
+$for(grants)$
+$if(grants.minor)$\ind \textit{$grants.funder$}, $grants.type$, $if(grants.title)$``$grants.title$''. $endif$$if(grants.value)$ $grants.value$.$endif$ $grants.date$$if(grants.note)$ ($grants.note$)$endif$.
+
+$endif$
+$endfor$
+
+
+
 \section{Teaching}
 
 $for(teaching)$
@@ -101,8 +118,6 @@ $for(students)$
 \subsection{$students.type$}
 $for(students.students)$
 \ind $if(students.students.webpage)$\href{$students.students.webpage$}{$students.students.name$}$else$$students.students.name$$endif$ , ``$if(students.students.link)$\href{$students.students.link$}{$students.students.thesis$}$else$$students.students.thesis$$endif$,'' $students.students.date$ $students.students.co_supervisor$ 
-
-
 
 
 $endfor$
