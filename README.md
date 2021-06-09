@@ -35,9 +35,10 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 
 ## Bib file requirements
 
-1. The bib file has to have a `keyword` that matches existing publication types
+1. The bib file has to have a `keywords` that matches existing publication types
 1. You need to add a `scholar` field that is used to reference citations (see [Getting metadata from Google Scholar](#getting-metadata-from-google-scholar))
 1. You also need a `pubid` category to get journal impact factors (see [Getting metadata from Google Scholar](#getting-metadata-from-google-scholar))
+1. You can add an image via the `thumbnail` keyword.
 
 ## Issues
 
@@ -52,7 +53,8 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 
 ## Troubleshooting
 
-- If you don't see contenten in your PDF, you most likely messed up formatting on the yaml file -- it's a finicky format. Pandoc doesn't give you an error in this case. Double check syntax using an online [yaml validator](https://yamlvalidator.com/).
+- If you don't see contenten in your PDF, you most likely messed up formatting on the yaml file -- it's a finicky format. Pandoc doesn't give you an error in this case. Double check syntax using an online [yaml validator](https://yamlvalidator.com/). If the intermediate `.tex` file has no content, that's most likely the reason.
+- If you don't see a paper in the bibliography, it's most likely because of the `keywords` field is missing from the 
 
 ## Getting metadata from Google Scholar
 
@@ -69,12 +71,6 @@ To get the impact factor I use the `pubid` field from Google Scholar as a separa
 
 **Pro tip**: If you want to get started by downloading a quick and dirty bib file from Google with these fields pre-computed you can use the following code. Just keep in mind that this _will_ mess up a lot of things and you'll have to do a fair bit of manual editing of journal names, author lists, capitalization, etc. You'll need [bib2df](https://github.com/ropensci/bib2df) and `tidyverse` for this to work.
 
-```{r}
-mybib <- pubs %>% mutate(BIBTEXKEY = tolower(paste0(lastName(author), year, firstWord(title))),
-              volume = gsub("(\\d+)\\s.*","\\1", number),
-              pages = gsub(".*,\\s(.*)$","\\1", number),
-              number =  gsub(".*\\((\\d+)\\).*","\\1", number),
-              scholar = cid, ) %>% select(CATEGORY, BIBTEXKEY, title, author, journal, volume, number, pages, year, scholar, pubid)
+There is a script called `bibupdate.R`, which pulls pubs from scholar not in your bib file, so that you can add them manually.
 
-df2bib(mybib, file = "mikheyev.bib")
 ```

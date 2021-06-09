@@ -283,6 +283,8 @@
    \usebibmacro{finentry}
 }
 
+
+
 %%%%%%%%%%%%%%%%
 % Format & add link to Google Scholar citations
 %%%%%%%%%%%%%%
@@ -342,20 +344,20 @@
   \ifentrytype{article}{}{%
   \printtext{\bibstring{in}\intitlepunct}}}
 
-% Bibliography categories
-\def\makebibcategory#1#2{\DeclareBibliographyCategory{#1}\defbibheading{#1}{\subsection*{#2}}}
-\makebibcategory{books}{Books}
-\makebibcategory{papers}{Journal articles}
-\makebibcategory{chapters}{Book chapters}
-\makebibcategory{conferences}{Conference papers \& posters}
-\makebibcategory{techreports}{Unpublished working papers}
-\makebibcategory{bookreviews}{Book reviews}
-\makebibcategory{editorials}{Editorials}
-\makebibcategory{phd}{PhD thesis}
-\makebibcategory{subpapers}{Submitted papers}
-\makebibcategory{curpapers}{Current projects}
-\makebibcategory{other}{Reviews, software \& other writing}
-\makebibcategory{abstracts}{Abstracts}
+% % Bibliography categories
+% \def\makebibcategory#1#2{\DeclareBibliographyCategory{#1}\defbibheading{#1}{\subsection*{#2}}}
+% \makebibcategory{books}{Books}
+% \makebibcategory{papers}{Journal articles}
+% \makebibcategory{chapters}{Book chapters}
+% \makebibcategory{conferences}{Conference papers \& posters}
+% \makebibcategory{techreports}{Unpublished working papers}
+% \makebibcategory{bookreviews}{Book reviews}
+% \makebibcategory{editorials}{Editorials}
+% \makebibcategory{phd}{PhD thesis}
+% \makebibcategory{subpapers}{Submitted papers}
+% \makebibcategory{curpapers}{Current projects}
+% \makebibcategory{other}{Reviews, software \& other writing}
+% \makebibcategory{abstracts}{Abstracts}
 
 \setlength{\bibitemsep}{2.5pt}
 \setlength{\bibhang}{.8cm}
@@ -380,6 +382,7 @@
 \newcounter{papers}\setcounter{papers}{0}
 \newcounter{sumpapers}\setcounter{sumpapers}{0}
 \def\lastref#1{\addtocounter{#1}{\value{papers}}\setcounter{papers}{0}}
+
 
 % Add all papers in the bib file.
 \nocite{*}

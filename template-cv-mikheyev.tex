@@ -1,11 +1,13 @@
 \documentclass[11pt]{article}
 
+
 % This is a tex file to make Alexander Mikheyev's CV.
 % The content is
 
 \usepackage[utf8]{inputenc}
 
 \usepackage{rz-vita}
+
 %\usepackage[english]{isodate}
 %\printdayoff\numdate
 \def\printdate#1{\xprintdate#1-}
@@ -67,13 +69,6 @@ $for(awards)$
 
 $endfor$
 
-\section{Editor}
-
-$for(editor)$
-\ind \textit{\href{$editor.link$}{$editor.item$}}, $editor.role$. $if(editor.enddate)$\daterange{$editor.begindate$}{$editor.enddate$}$else$\printdate{$editor.begindate$}--$endif$.
-
-$endfor$
-
 \section{Research Grants \& Fellowships}
 
 \subsection{Grants}
@@ -105,7 +100,10 @@ $endfor$
 $for(students)$
 \subsection{$students.type$}
 $for(students.students)$
-\ind $if(students.students.webpage)$\href{$students.students.webpage$}{$students.students.name$}$else$$students.students.name$$endif$ ($students.students.degree$), ``$if(students.students.link)$\href{$students.students.link$}{$students.students.thesis$}$else$$students.students.thesis$$endif$,'' $students.students.date$
+\ind $if(students.students.webpage)$\href{$students.students.webpage$}{$students.students.name$}$else$$students.students.name$$endif$ , ``$if(students.students.link)$\href{$students.students.link$}{$students.students.thesis$}$else$$students.students.thesis$$endif$,'' $students.students.date$ $students.students.co_supervisor$ 
+
+
+
 
 $endfor$
 $endfor$
@@ -170,6 +168,13 @@ $for(service.gigs)$
 \ind $service.gigs.item$. $if(service.gigs.date)$$service.gigs.date$.$endif$
 
 $endfor$
+$endfor$
+
+\section{Editor}
+
+$for(editor)$
+\ind \textit{\href{$editor.link$}{$editor.item$}}, $editor.role$. $if(editor.enddate)$\daterange{$editor.begindate$}{$editor.enddate$}$else$\printdate{$editor.begindate$}--$endif$.
+
 $endfor$
 
 \section{Outreach}

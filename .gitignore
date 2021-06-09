@@ -46,3 +46,4 @@ cv-mikheyev.docx
 .gitsecret/keys/random_seed
 !*.secret
 curriculum_vitae.yaml
+.Rproj.user
