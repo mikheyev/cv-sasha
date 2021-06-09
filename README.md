@@ -48,7 +48,7 @@ The resulting PDF can be viewed [here](http://phil.ucalgary.ca/profiles/215-2836
 - The citations and IFs are pulled manually not to anger Google using make `make cv-mikheyev-scholar.tex` before doing anything else.
 - To compile the pdf run `make`
 - To compile markdown run `make cv-mikheyev.md`
-- Your data should be stored in a 
+- Make sure that your bib file has the fields corresponding to citation id, journal id, and article type. 
 
 ## Troubleshooting
 

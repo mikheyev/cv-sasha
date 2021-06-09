@@ -11,21 +11,16 @@
 %% ------------------------------------------------------------------------
 %%  Load required packages
 %%  ------------------------------------------------------------------------
-\usepackage{paralist,ragged2e,datetime}
+\usepackage{paralist,ragged2e}
 \usepackage{hyperref,fancyhdr,enumitem,color}
 \usepackage[centering]{geometry}
 \usepackage{fontawesome}
+\usepackage{academicons}
 \usepackage[compact,small,sf,bf]{titlesec}
 \usepackage{etaremune}
-%% ------------------------------------------------------------------------
-%%  Git version tracking
-%% ------------------------------------------------------------------------
-
-%% If you don't use git or the vc package (from CTAN), comment this out.
-%% If you comment it out, be sure to remove the \rfoot comment below, too.
-%% See vc manual to compile with xelatex -enable-write18 vita
-\immediate\write18{vc.sh}
-\input{vc}
+\usepackage[short,nodayofweek]{datetime}
+\usepackage{graphicx}
+\usepackage{filecontents}
 
 %% ------------------------------------------------------------------------
 %% Fonts and colours
@@ -58,13 +53,9 @@
 %% Header and footer
 %% ------------------------------------------------------------------------
 
-% git revision info inserted via external script -- see docs for vc
-% package for details. comment out this line if you're not using vc,
-% and also remove the \input{vc} line above.
+% date document is compiled is inderted into the text
 
-% What use is a commit number?
-%\newcommand{\gitinfo}{\textcolor{Gray}{\texttt{\scriptsize \VCRevision\ on \VCDateTEX}}}
-\newcommand{\gitinfo}{\textcolor{Gray}{\texttt{\scriptsize Last updated \VCDateTEX}}}
+\newcommand{\gitinfo}{\textcolor{Gray}{\texttt{\scriptsize Last updated \today}}}
 
 % Style for the front page
 \fancypagestyle{myplain}{%
@@ -144,7 +135,7 @@
     {\scriptsize  \texttt{\href{http://\@www}{\@www}} \, \faGlobe} \\
     {\scriptsize  \texttt{\href{https://github.com/\@github}{\@github}} \, \faGithub} \\
     {\scriptsize  \texttt{\href{https://twitter.com/\@twitter}{\@twitter} \, \faTwitter}} \\
-    {\scriptsize  \textsc{\href{https://scholar.google.ca/citations?user=\@googlescholar&hl=en}{Google Scholar}} \, \faGoogle} \\
+    {\scriptsize  \textsc{\href{https://scholar.google.com/citations?user=\@googlescholar&hl=en}{Google Scholar}} \, \aiGoogleScholar} \\
 
   \end{minipage}
 
@@ -209,7 +200,23 @@
 %\usepackage[uniquename=init,dashed=false,doi=false,isbn=false,backend=biber]{biblatex-chicago}
 %\usepackage[notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true]{biblatex-chicago}
 
-\usepackage[bibstyle=authoryear,date=year,sorting=ydnt,dashed=false,maxbibnames=99]{biblatex}
+
+% Add the capacity to insert images into the margins
+\begin{filecontents*}{thumbnail.dbx}
+\ProvidesFile{ext-eprint.dbx}[add image thumbnail]
+\DeclareDatamodelFields[type=field, datatype=verbatim]{thumbnail}
+\DeclareDatamodelEntryfields{thumbnail}
+\end{filecontents*}
+
+\usepackage[bibstyle=authoryear, date=year, sorting=ydnt, dashed=false, maxbibnames=99, datamodel=thumbnail]{biblatex}
+
+\newcommand*{\insertbibimage}[1]{\includegraphics[width=50px, keepaspectratio]{#1}}
+
+\renewbibmacro*{finentry}{\finentry
+  \iffieldundef{thumbnail}
+    {}
+    {\marginpar{\usefield{\insertbibimage}{thumbnail}}}}
+
 
 \DeclareFieldFormat[article]{pages}{#1}
 \DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}~#1}
@@ -303,6 +310,7 @@
         }
     }
 }
+
 
 
 % print a link to the Google Scholar citations list
